@@ -1,0 +1,20 @@
+prototype(WebStarter:Header.ServiceNavigation) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Header/ServiceNavigation.html'
+
+    title = 'Services navigation'
+
+    nav = Menu {
+        // @todo more flexible way to define starting point
+        startingPoint = ${site}
+
+        active.attributes {
+            class = null
+        }
+        current.attributes {
+            class = null
+        }
+        normal.attributes {
+            class = null
+        }
+    }
+}
