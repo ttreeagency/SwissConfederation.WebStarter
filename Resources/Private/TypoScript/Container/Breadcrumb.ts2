@@ -22,4 +22,6 @@ prototype(WebStarter:Container.Breadcrumb) < prototype(Fusion:Template) {
             class = null
         }
     }
+
+    @if.checkDepth = ${documentNode.nodeData.depth > 2}
 }
