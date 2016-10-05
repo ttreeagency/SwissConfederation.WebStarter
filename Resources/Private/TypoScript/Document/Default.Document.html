@@ -4,10 +4,33 @@
 <html>
 <head>
     <f:section name="stylesheets">
-        <!-- Put your stylesheet inclusions here, they will be included in your website by TypoScript -->
+        <link rel="stylesheet" href="{f:uri.resource(path: 'StyleGuide/css/vendors.css', package: 'Ttree.SwissConfederation.WebStarter')}">
+        <link rel="stylesheet" href="{f:uri.resource(path: 'StyleGuide/css/admin.css', package: 'Ttree.SwissConfederation.WebStarter')}">
+        <link rel="stylesheet" href="{f:uri.resource(path: 'StyleGuide/css/print.css', package: 'Ttree.SwissConfederation.WebStarter')}">
+
+        <link rel="shortcut icon" href="{f:uri.resource(path: 'StyleGuide/img/ico/favicon.ico', package: 'Ttree.SwissConfederation.WebStarter')}">
+        <link rel="apple-touch-icon" sizes="57x57" href="{f:uri.resource(path: 'StyleGuide/img/ico/apple-touch-icon-57x57.png', package: 'Ttree.SwissConfederation.WebStarter')}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{f:uri.resource(path: 'StyleGuide/img/ico/apple-touch-icon-114x114.png', package: 'Ttree.SwissConfederation.WebStarter')}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{f:uri.resource(path: 'StyleGuide/img/ico/apple-touch-icon-72x72.png', package: 'Ttree.SwissConfederation.WebStarter')}">
+        <link rel="apple-touch-icon" sizes="144x144" href="{f:uri.resource(path: 'StyleGuide/img/ico/apple-touch-icon-144x144.png', package: 'Ttree.SwissConfederation.WebStarter')}">
+        <link rel="apple-touch-icon" sizes="60x60" href="{f:uri.resource(path: 'StyleGuide/img/ico/apple-touch-icon-60x60.png', package: 'Ttree.SwissConfederation.WebStarter')}">
+        <link rel="apple-touch-icon" sizes="120x120" href="{f:uri.resource(path: 'StyleGuide/img/ico/apple-touch-icon-120x120.png', package: 'Ttree.SwissConfederation.WebStarter')}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{f:uri.resource(path: 'StyleGuide/img/ico/apple-touch-icon-76x76.png', package: 'Ttree.SwissConfederation.WebStarter')}">
+        <link rel="icon" type="image/png" href="{f:uri.resource(path: 'StyleGuide/img/ico/favicon-96x96.png', package: 'Ttree.SwissConfederation.WebStarter')}" sizes="96x96">
+        <link rel="icon" type="image/png" href="{f:uri.resource(path: 'StyleGuide/img/ico/favicon-16x16.png', package: 'Ttree.SwissConfederation.WebStarter')}" sizes="16x16">
+        <link rel="icon" type="image/png" href="{f:uri.resource(path: 'StyleGuide/img/ico/favicon-32x32.png', package: 'Ttree.SwissConfederation.WebStarter')}" sizes="32x32">
     </f:section>
+
     <f:section name="headScripts">
-        <!-- Put your scripts inclusions for the head here, they will be included in your website by TypoScript -->
+        <script>
+            // You have to store all your data inside `searchData` and define it globaly
+            var searchData = ["Aargau", "Appenzell A. Rh.", "Appenzell I. Rh.",
+                "Basel-Landschaft", "Basel-Stadt", "Bern", "Fribourg", "Genève",
+                "Glarus", "Graubünden", "Jura", "Lucerne", "Neuchâtel", "Nidwalden",
+                "Obwalden", "Schaffhausen", "Schwyz", "Solothurn", "St. Gallen",
+                "Thurgau", "Ticino", "Uri", "Valais", "Vaud", "Zug", "Zurich"
+            ];
+        </script>
     </f:section>
 </head>
 <body>
@@ -23,7 +46,8 @@
     </div>
 </f:section>
 <f:section name="bodyScripts">
-    <!-- Put your scripts inclusions for the end of the body here, they will be included in your website by TypoScript -->
+    <script type="text/javascript" src="{f:uri.resource(path: 'StyleGuide/js/vendors.min.js', package: 'Ttree.SwissConfederation.WebStarter')}"></script>
+    <script type="text/javascript" src="{f:uri.resource(path: 'StyleGuide/js/main.min.js', package: 'Ttree.SwissConfederation.WebStarter')}"></script>
 </f:section>
 </body>
 </html>

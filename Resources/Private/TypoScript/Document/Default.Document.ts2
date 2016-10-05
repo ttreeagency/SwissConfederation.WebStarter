@@ -1,9 +1,59 @@
 prototype(Ttree.SwissConfederation.WebStarter:Default.Document) < prototype(Page) {
     head {
+        xUaCompatibleMetaTag = TYPO3.TypoScript:Tag {
+            @position = 'after characterSetMetaTag'
+            tagName = 'meta'
+            attributes {
+                http-equiv = 'x-ua-compatible'
+                content = 'ie=edge'
+            }
+        }
+
+        viewportMetaTag = TYPO3.TypoScript:Tag {
+            @position = 'after xUaCompatibleMetaTag'
+            tagName = 'meta'
+            attributes {
+                content = 'width=device-width, initial-scale=1'
+            }
+        }
+
         stylesheets.site = TYPO3.TypoScript:Template {
             templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
             sectionName = 'stylesheets'
         }
+
+        msapplicationMetaTag = TYPO3.TypoScript:Array {
+            @position = 'after stylesheets'
+
+            tileColor = TYPO3.TypoScript:Tag {
+                tagName = 'meta'
+                attributes {
+                    name = 'msapplication-TileColor'
+                    content = '#ffffff'
+                }
+            }
+
+            tileImage = TYPO3.TypoScript:Tag {
+                tagName = 'meta'
+                attributes {
+                    name = 'msapplication-TileImage'
+                    content = TYPO3.TypoScript:ResourceUri {
+                        path = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/img/ico/mstile-144x144.png'
+                    }
+                }
+            }
+
+            config = TYPO3.TypoScript:Tag {
+                tagName = 'meta'
+                attributes {
+                    name = 'msapplication-config'
+                    content = TYPO3.TypoScript:ResourceUri {
+                        path = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/img/ico/browserconfig.xml'
+                    }
+                }
+            }
+        }
+
 
         javascripts.site = TYPO3.TypoScript:Template {
             templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
