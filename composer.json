@@ -1,17 +1,14 @@
 {
-    "description": "Add description here",
+    "name": "ttree/swissconfederation-webstarter",
     "type": "typo3-flow-site",
+    "description": "Swiss Confederation Web Guidelines implementation for Neos CMS",
     "require": {
         "typo3/neos": "*",
         "typo3/neos-nodetypes": "*"
     },
-    "suggest": {
-        "typo3/neos-seo": "*"
-    },
-    "name": "ttree/swissconfederation-webstarter",
     "autoload": {
-        "psr-0": {
-            "Ttree\\SwissConfederation\\WebStarter": "Classes/"
+        "psr-4": {
+            "Ttree\\SwissConfederation\\WebStarter\\": "Classes/"
         }
     },
     "extra": {
