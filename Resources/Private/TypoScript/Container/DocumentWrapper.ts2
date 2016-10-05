@@ -1,4 +1,4 @@
-prototype(WebStarter:Container.Main) < prototype(Fusion:Tag) {
+prototype(WebStarter:Container.DocumentWrapper) < prototype(Fusion:Tag) {
     tagName = 'div'
 
     attributes.class = 'container container-main'

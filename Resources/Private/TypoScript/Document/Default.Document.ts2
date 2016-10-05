@@ -67,7 +67,7 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
         parts = Fusion:Array {
             nav = WebStarter:Header.AccessibilityNavigation
 
-            main = WebStarter:Container.Main {
+            main = WebStarter:Container.DocumentWrapper {
                 content {
                     header = WebStarter:Header.Base {
                         title = ${q(site).property('title')}
@@ -88,9 +88,7 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
 
                     breadcrumb = WebStarter:Container.Breadcrumb
 
-                    main = PrimaryContent {
-                        nodePath = 'main'
-                    }
+                    main = WebStarter:Container.ContentArea
                 }
             }
         }

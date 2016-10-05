@@ -1,0 +1,7 @@
+prototype(WebStarter:Container.ContentArea) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Container/ContentArea.html'
+
+    content = PrimaryContent {
+        nodePath = 'main'
+    }
+}
