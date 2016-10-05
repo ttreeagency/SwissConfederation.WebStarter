@@ -13,8 +13,7 @@ prototype(WebStarter:Header.Base) < prototype(Fusion:Template) {
         path = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/img/logo-CH.svg'
     }
 
-
-
-    section = ''
-    nav = ''
+    section = Fusion:Array
+    topNav = Fusion:Array
+    mainNav = Fusion:Array
 }

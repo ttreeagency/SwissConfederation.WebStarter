@@ -1,10 +1,17 @@
 <header>
-    {section -> f:format.raw()}
-    <a{attributes -> f:format.raw()}>
-        <img src="{logo}" onerror="this.onerror=null; this.src='{logo}'" alt="Back to home" />
-        <h1>Department of the Environment, Transport, Energy and Communications</h1>
-    </a>
+    <div class="clearfix">
+        {topNav -> f:format.raw()}
+    </div>
+    <div class="clearfix">
+        <a{attributes -> f:format.raw()}>
+            <img src="{logo}" onerror="this.onerror=null; this.src='{logo}'" alt="Back to home" />
+            <h1>Department of the Environment, Transport, Energy and Communications</h1>
+        </a>
+        <section class="nav-services">
+            {section -> f:format.raw()}
+        </section>
+    </div>
 </header>
 <nav class="nav-main">
-    {nav -> f:format.raw()}
+    {mainNav -> f:format.raw()}
 </nav>
