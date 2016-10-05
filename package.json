@@ -1,0 +1,17 @@
+{
+  "name": "ttree-swissconfederation-webstarter",
+  "title": "SwissConfederation.WebStarter for Neos CMS",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ttreeagency/SwissConfederation.WebStarter",
+  "author": "ttree.ch ltd",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "swiss-styleguide": "^3.0.0"
+  }
+}
