@@ -2,15 +2,13 @@
     <div class="clearfix">
         {topNav -> f:format.raw()}
     </div>
-    <div class="clearfix">
-        <a{attributes -> f:format.raw()}>
-            <img src="{logo}" onerror="this.onerror=null; this.src='{logo}'" alt="Back to home" />
-            <h1>Department of the Environment, Transport, Energy and Communications</h1>
-        </a>
-        <section class="nav-services">
-            {section -> f:format.raw()}
-        </section>
-    </div>
+    <a{attributes -> f:format.raw()}>
+        <img src="{logo}" onerror="this.onerror=null; this.src='{logo}'" alt="Back to home" />
+        <h1>{title}</h1>
+    </a>
+    <section class="nav-services clearfix">
+        {section -> f:format.raw()}
+    </section>
 </header>
 <nav class="nav-main">
     {mainNav -> f:format.raw()}

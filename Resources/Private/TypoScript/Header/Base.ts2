@@ -13,6 +13,8 @@ prototype(WebStarter:Header.Base) < prototype(Fusion:Template) {
         path = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/img/logo-CH.svg'
     }
 
+    title = 'Department of the Environment, Transport, Energy and Communications'
+
     section = Fusion:Array
     topNav = Fusion:Array
     mainNav = Fusion:Array
