@@ -1,0 +1,20 @@
+prototype(WebStarter:Header.Base) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Header/Base.html'
+
+    attributes = Fusion:Attributes {
+        class = 'brand hidden-xs'
+        title = 'Back to home'
+        href = NodeUri {
+            node = ${site}
+        }
+    }
+
+    logo = Fusion:ResourceUri {
+        path = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/img/logo-CH.svg'
+    }
+
+
+
+    section = ''
+    nav = ''
+}
