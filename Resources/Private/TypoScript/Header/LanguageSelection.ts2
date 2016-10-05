@@ -1,0 +1,12 @@
+prototype(WebStarter:Header.LanguageSelection) < prototype(DimensionsMenu) {
+    @class = 'Ttree\\SwissConfederation\\WebStarter\\TypoScript\\LanguageSelectionImplementation'
+
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Header/LanguageSelection.html'
+
+    dimension = 'language'
+    presets = ${['de', 'fr', 'it', 'rm', 'en']}
+
+    current.attributes = TYPO3.TypoScript:Attributes {
+        class = 'active'
+    }
+}
