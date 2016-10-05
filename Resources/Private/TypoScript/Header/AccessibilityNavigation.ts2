@@ -1,0 +1,18 @@
+prototype(WebStarter:Header.AccessibilityNavigation) < prototype(Menu) {
+    // @todo flexible way to configure what need to appear in the menu
+    maximumLevels = 1
+
+    attributes {
+        class = 'access-keys'
+    }
+
+    active.attributes {
+        class = null
+    }
+    current.attributes {
+        class = null
+    }
+    normal.attributes {
+        class = null
+    }
+}
