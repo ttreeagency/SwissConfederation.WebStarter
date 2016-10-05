@@ -1,0 +1,7 @@
+prototype(WebStarter:Container.Main) < prototype(Fusion:Tag) {
+    tagName = 'div'
+
+    attributes.class = 'container container-main'
+
+    content = Fusion:Array
+}

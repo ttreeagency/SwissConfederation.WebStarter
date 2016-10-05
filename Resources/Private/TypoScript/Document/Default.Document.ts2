@@ -67,23 +67,31 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
         parts = Fusion:Array {
             nav = WebStarter:Header.AccessibilityNavigation
 
-            header = WebStarter:Header.Base {
-                title = ${q(site).property('title')}
+            main = WebStarter:Container.Main {
+                content {
+                    header = WebStarter:Header.Base {
+                        title = ${q(site).property('title')}
 
-                topNav {
-                    treecrumb = WebStarter:Header.Treecrumb
-                    languageSelect = WebStarter:Header.LanguageSelection
-                    serviceNav = WebStarter:Header.ServiceNavigation
+                        topNav {
+                            treecrumb = WebStarter:Header.Treecrumb
+                            languageSelect = WebStarter:Header.LanguageSelection
+                            serviceNav = WebStarter:Header.ServiceNavigation
+                        }
+
+                        section {
+                            siteSearch = WebStarter:Header.SiteSearch
+                            topic = WebStarter:Header.Topic
+                        }
+                    }
+
+                    globalNavigation = WebStarter:Container.GlobalNavigation
+
+                    breadcrumb = WebStarter:Container.Breadcrumb
+
+                    main = PrimaryContent {
+                        nodePath = 'main'
+                    }
                 }
-
-                section {
-                    siteSearch = WebStarter:Header.SiteSearch
-                    topic = WebStarter:Header.Topic
-                }
-            }
-
-            main = PrimaryContent {
-                nodePath = 'main'
             }
         }
         javascripts.site = Fusion:Template {
