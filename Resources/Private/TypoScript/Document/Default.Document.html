@@ -20,7 +20,6 @@
         <link rel="icon" type="image/png" href="{f:uri.resource(path: 'StyleGuide/img/ico/favicon-16x16.png', package: 'Ttree.SwissConfederation.WebStarter')}" sizes="16x16">
         <link rel="icon" type="image/png" href="{f:uri.resource(path: 'StyleGuide/img/ico/favicon-32x32.png', package: 'Ttree.SwissConfederation.WebStarter')}" sizes="32x32">
     </f:section>
-
     <f:section name="headScripts">
         <script>
             // You have to store all your data inside `searchData` and define it globaly
@@ -35,15 +34,7 @@
 </head>
 <body>
 <f:section name="body">
-    <nav class="menu">
-        {parts.menu -> f:format.raw()}
-    </nav>
-    <nav class="breadcrumb">
-        {parts.breadcrumb -> f:format.raw()}
-    </nav>
-    <div class="content">
-        {content.main -> f:format.raw()}
-    </div>
+    {content -> f:format.raw()}
 </f:section>
 <f:section name="bodyScripts">
     <script type="text/javascript" src="{f:uri.resource(path: 'StyleGuide/js/vendors.min.js', package: 'Ttree.SwissConfederation.WebStarter')}"></script>

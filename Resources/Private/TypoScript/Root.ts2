@@ -1,1 +1,5 @@
+namespace: Fusion = TYPO3.TypoScript
+namespace: WebStarter = Ttree.SwissConfederation.WebStarter
+
 include: Document/**/*
+include: Header/**/*

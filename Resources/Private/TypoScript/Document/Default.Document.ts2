@@ -1,6 +1,6 @@
-prototype(Ttree.SwissConfederation.WebStarter:Default.Document) < prototype(Page) {
+prototype(WebStarter:Default.Document) < prototype(Page) {
     head {
-        xUaCompatibleMetaTag = TYPO3.TypoScript:Tag {
+        xUaCompatibleMetaTag = Fusion:Tag {
             @position = 'after characterSetMetaTag'
             tagName = 'meta'
             attributes {
@@ -9,7 +9,7 @@ prototype(Ttree.SwissConfederation.WebStarter:Default.Document) < prototype(Page
             }
         }
 
-        viewportMetaTag = TYPO3.TypoScript:Tag {
+        viewportMetaTag = Fusion:Tag {
             @position = 'after xUaCompatibleMetaTag'
             tagName = 'meta'
             attributes {
@@ -17,15 +17,15 @@ prototype(Ttree.SwissConfederation.WebStarter:Default.Document) < prototype(Page
             }
         }
 
-        stylesheets.site = TYPO3.TypoScript:Template {
+        stylesheets.site = Fusion:Template {
             templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
             sectionName = 'stylesheets'
         }
 
-        msapplicationMetaTag = TYPO3.TypoScript:Array {
+        msapplicationMetaTag = Fusion:Array {
             @position = 'after stylesheets'
 
-            tileColor = TYPO3.TypoScript:Tag {
+            tileColor = Fusion:Tag {
                 tagName = 'meta'
                 attributes {
                     name = 'msapplication-TileColor'
@@ -33,21 +33,21 @@ prototype(Ttree.SwissConfederation.WebStarter:Default.Document) < prototype(Page
                 }
             }
 
-            tileImage = TYPO3.TypoScript:Tag {
+            tileImage = Fusion:Tag {
                 tagName = 'meta'
                 attributes {
                     name = 'msapplication-TileImage'
-                    content = TYPO3.TypoScript:ResourceUri {
+                    content = Fusion:ResourceUri {
                         path = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/img/ico/mstile-144x144.png'
                     }
                 }
             }
 
-            config = TYPO3.TypoScript:Tag {
+            config = Fusion:Tag {
                 tagName = 'meta'
                 attributes {
                     name = 'msapplication-config'
-                    content = TYPO3.TypoScript:ResourceUri {
+                    content = Fusion:ResourceUri {
                         path = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/img/ico/browserconfig.xml'
                     }
                 }
@@ -55,7 +55,7 @@ prototype(Ttree.SwissConfederation.WebStarter:Default.Document) < prototype(Page
         }
 
 
-        javascripts.site = TYPO3.TypoScript:Template {
+        javascripts.site = Fusion:Template {
             templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
             sectionName = 'headScripts'
         }
@@ -68,12 +68,18 @@ prototype(Ttree.SwissConfederation.WebStarter:Default.Document) < prototype(Page
             menu = Menu
             breadcrumb = Breadcrumb
         }
-        content {
+        content = Fusion:Array {
+            nav = WebStarter:Header.AccessibilityNavigation
+
+            header = WebStarter:Header.Base {
+                section = WebStarter:Header.ServiceNavigation
+            }
+
             main = PrimaryContent {
                 nodePath = 'main'
             }
         }
-        javascripts.site = TYPO3.TypoScript:Template {
+        javascripts.site = Fusion:Template {
             templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
             sectionName = 'bodyScripts'
         }
