@@ -11,31 +11,32 @@ Ttree:
         fallback: 'Ttree.SwissConfederation.WebStarter:Default.Document'
 
 TYPO3:
-  contentDimensions:
-    'language':
-      label: 'Neos.Demo:Main:contentDimensions.language'
-      icon: 'icon-language'
-      default: 'fr'
-      defaultPreset: 'fr_CH'
-      presets:
-        'all': ~
-        'fr':
-          label: 'French'
-          values: ['fr']
-          uriSegment: 'fr'
-        'de':
-          label: 'German'
-          values: ['de']
-          uriSegment: 'uk'
-        'it':
-          label: 'Italian'
-          values: ['it']
-          uriSegment: 'it'
-        'rm':
-          label: 'Romansh'
-          values: ['rm', 'de', 'fr', 'it']
-          uriSegment: 'rm'
-        'en':
-          label: 'English'
-          values: ['en', 'de', 'fr', 'it']
-          uriSegment: 'en'
+  TYPO3CR:
+    contentDimensions:
+      'language':
+        label: 'Neos.Demo:Main:contentDimensions.language'
+        icon: 'icon-language'
+        default: 'fr'
+        defaultPreset: 'fr'
+        presets:
+          'all': ~
+          'fr':
+            label: 'French'
+            values: ['fr']
+            uriSegment: 'fr'
+          'de':
+            label: 'German'
+            values: ['de', 'fr']
+            uriSegment: 'de'
+          'it':
+            label: 'Italian'
+            values: ['it', 'de', 'fr']
+            uriSegment: 'it'
+          'rm':
+            label: 'Romansh'
+            values: ['rm', 'de', 'fr', 'it']
+            uriSegment: 'rm'
+          'en':
+            label: 'English'
+            values: ['en', 'de', 'fr', 'it']
+            uriSegment: 'en'
