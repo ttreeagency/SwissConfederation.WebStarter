@@ -1,0 +1,3 @@
+prototype(WebStarter:Header.SiteSearch) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Header/SiteSearch.html'
+}
