@@ -64,15 +64,22 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
     body {
         templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
         sectionName = 'body'
-        parts {
-            menu = Menu
-            breadcrumb = Breadcrumb
-        }
-        content = Fusion:Array {
+        parts = Fusion:Array {
             nav = WebStarter:Header.AccessibilityNavigation
 
             header = WebStarter:Header.Base {
-                section = WebStarter:Header.ServiceNavigation
+                title = ${q(site).property('title')}
+
+                topNav {
+                    treecrumb = WebStarter:Header.Treecrumb
+                    languageSelect = WebStarter:Header.LanguageSelection
+                    serviceNav = WebStarter:Header.ServiceNavigation
+                }
+
+                section {
+                    siteSearch = WebStarter:Header.SiteSearch
+                    topic = WebStarter:Header.Topic
+                }
             }
 
             main = PrimaryContent {
