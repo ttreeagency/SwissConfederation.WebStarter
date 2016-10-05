@@ -4,8 +4,7 @@ prototype(WebStarter:Header.ServiceNavigation) < prototype(Fusion:Template) {
     title = 'Services navigation'
 
     nav = Menu {
-        // @todo more flexible way to define starting point
-        startingPoint = ${site}
+        startingPoint = ${q(site).find(Configuration.setting('Ttree.SwissConfederation.WebStarter.navigation.service.startingPoint')).get(0)}
 
         active.attributes {
             class = null

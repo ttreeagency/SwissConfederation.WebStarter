@@ -1,4 +1,10 @@
 Ttree:
+  SwissConfederation:
+    WebStarter:
+      navigation:
+        service:
+          startingPoint: '#c142ef64-ea36-423a-8a2a-c581812f5316'
+
   Fusion:
     DocumentFinder:
       documentPrototype:
