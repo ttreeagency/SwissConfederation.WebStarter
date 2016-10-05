@@ -1,0 +1,25 @@
+prototype(WebStarter:Container.Breadcrumb) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Container/Breadcrumb.html'
+
+    title = 'Breadcrumbs'
+
+    nav = BreadcrumbMenu {
+        templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Container/BreadcrumbMenu.html'
+
+        attributes {
+            class = 'breadcrumb'
+            role = 'navigation'
+            aria-labelledby = 'br1'
+        }
+
+        active.attributes {
+            class = null
+        }
+        current.attributes {
+            class = null
+        }
+        normal.attributes {
+            class = null
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+{namespace ts=TYPO3\TypoScript\ViewHelpers}
+<f:if condition="{items}">
+    <ol{attributes -> f:format.raw()}>
+    <f:for each="{items}" as="item" iteration="iteration" reverse="TRUE">
+        <f:if condition="{iteration.isLast}">
+            <f:then>
+                <li class="active" aria-selected="true" aria-label="current page">
+                    {item.label}
+                </li>
+            </f:then>
+            <f:else>
+                <li>
+                    <neos:link.node node="{item.node}" /> <span class="icon icon--greater"></span>
+                </li>
+            </f:else>
+        </f:if>
+        </li>
+    </f:for>
+    </ol>
+</f:if>
