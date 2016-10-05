@@ -1,0 +1,31 @@
+prototype(Ttree.SwissConfederation.WebStarter:Default.Document) < prototype(Page) {
+    head {
+        stylesheets.site = TYPO3.TypoScript:Template {
+            templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
+            sectionName = 'stylesheets'
+        }
+
+        javascripts.site = TYPO3.TypoScript:Template {
+            templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
+            sectionName = 'headScripts'
+        }
+    }
+
+    body {
+        templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
+        sectionName = 'body'
+        parts {
+            menu = Menu
+            breadcrumb = Breadcrumb
+        }
+        content {
+            main = PrimaryContent {
+                nodePath = 'main'
+            }
+        }
+        javascripts.site = TYPO3.TypoScript:Template {
+            templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
+            sectionName = 'bodyScripts'
+        }
+    }
+}

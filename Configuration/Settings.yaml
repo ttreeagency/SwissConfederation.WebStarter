@@ -1,0 +1,5 @@
+Ttree:
+  Fusion:
+    DocumentFinder:
+      documentPrototype:
+        fallback: 'Ttree.SwissConfederation.WebStarter:Default.Document'
