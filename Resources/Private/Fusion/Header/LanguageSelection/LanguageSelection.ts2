@@ -1,6 +1,4 @@
 prototype(WebStarter:Header.LanguageSelection) < prototype(DimensionsMenu) {
-    @class = 'Ttree\\SwissConfederation\\WebStarter\\TypoScript\\LanguageSelectionImplementation'
-
     templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Header/LanguageSelection/LanguageSelection.html'
 
     dimension = 'language'
