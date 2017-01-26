@@ -1,5 +1,0 @@
-prototype(WebStarter:Header.Treecrumb) < prototype(Fusion:Template) {
-    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Header/Treecrumb.html'
-
-    title = 'Orientation in the website'
-}

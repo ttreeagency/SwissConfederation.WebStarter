@@ -1,5 +1,5 @@
 prototype(WebStarter:Header.ServiceNavigation) < prototype(Fusion:Template) {
-    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Header/ServiceNavigation.html'
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Header/ServiceNavigation/ServiceNavigation.html'
 
     title = 'Services navigation'
 
