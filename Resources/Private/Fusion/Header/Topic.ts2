@@ -1,0 +1,5 @@
+prototype(WebStarter:Header.Topic) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Header/Topic.html'
+
+    title = 'By Topics'
+}

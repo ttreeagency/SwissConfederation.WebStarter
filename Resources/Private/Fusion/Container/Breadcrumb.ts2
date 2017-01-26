@@ -1,10 +1,10 @@
 prototype(WebStarter:Container.Breadcrumb) < prototype(Fusion:Template) {
-    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Container/Breadcrumb.html'
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/Breadcrumb.html'
 
     title = 'Breadcrumbs'
 
     nav = BreadcrumbMenu {
-        templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Container/BreadcrumbMenu.html'
+        templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/BreadcrumbMenu.html'
 
         attributes {
             class = 'breadcrumb'

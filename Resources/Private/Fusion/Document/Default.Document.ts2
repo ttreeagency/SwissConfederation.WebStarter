@@ -18,7 +18,7 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
         }
 
         stylesheets.site = Fusion:Template {
-            templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
+            templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Document/Default.Document.html'
             sectionName = 'stylesheets'
         }
 
@@ -56,13 +56,13 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
 
 
         javascripts.site = Fusion:Template {
-            templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
+            templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Document/Default.Document.html'
             sectionName = 'headScripts'
         }
     }
 
     body {
-        templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
+        templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Document/Default.Document.html'
         sectionName = 'body'
         parts = Fusion:Array {
             nav = WebStarter:Header.AccessibilityNavigation
@@ -93,7 +93,7 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
             }
         }
         javascripts.site = Fusion:Template {
-            templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Document/Default.Document.html'
+            templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Document/Default.Document.html'
             sectionName = 'bodyScripts'
         }
     }

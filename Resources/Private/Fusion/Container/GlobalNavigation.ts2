@@ -1,0 +1,3 @@
+prototype(WebStarter:Container.GlobalNavigation) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/GlobalNavigation.html'
+}

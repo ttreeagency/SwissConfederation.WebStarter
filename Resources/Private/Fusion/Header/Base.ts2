@@ -1,5 +1,5 @@
 prototype(WebStarter:Header.Base) < prototype(Fusion:Template) {
-    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Header/Base.html'
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Header/Base.html'
 
     attributes = Fusion:Attributes {
         class = 'brand hidden-xs'

@@ -1,5 +1,5 @@
 prototype(WebStarter:Container.ContentArea) < prototype(Fusion:Template) {
-    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/TypoScript/Container/ContentArea.html'
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/ContentArea.html'
 
     pageTitle = Fusion:Tag {
         tagName = 'h1'
