@@ -4,6 +4,8 @@ prototype(WebStarter:Header.ServiceNavigation) < prototype(Fusion:Template) {
     title = 'Services navigation'
 
     nav = Menu {
+        maximumLevels = 1
+
         startingPoint = ${q(site).find(Configuration.setting('Ttree.SwissConfederation.WebStarter.navigation.service.startingPoint')).get(0)}
 
         active.attributes {
