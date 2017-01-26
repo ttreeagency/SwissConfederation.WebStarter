@@ -150,24 +150,12 @@
        <properties>
         <caption __type="string">&lt;p&gt;Nulla facilisi. Fusce viverra tincidunt purus, blandit vehicula purus dapibus&lt;/p&gt;</caption>
         <alignment __type="string"></alignment>
-        <image __type="object" __identifier="23fb5df0-9a65-480a-8362-9cfdea01aa22" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;23fb5df0-9a65-480a-8362-9cfdea01aa22&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;photo-1461295025362-7547f63dbaea.jpeg&quot;,&quot;hash&quot;:&quot;79c963713c2512c8bd5e80d8043b0e540642f746&quot;,&quot;__identity&quot;:&quot;227f4976-057c-49bc-8c48-615475808346&quot;}}</image>
+        <image __type="object" __identifier="23fb5df0-9a65-480a-8362-9cfdea01aa22" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;23fb5df0-9a65-480a-8362-9cfdea01aa22&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;photo-1461295025362-7547f63dbaea.jpeg&quot;,&quot;hash&quot;:&quot;79c963713c2512c8bd5e80d8043b0e540642f746&quot;,&quot;__identity&quot;:&quot;227f4976-057c-49bc-8c48-615475808346&quot;}}</image>
         <hasCaption __type="boolean">1</hasCaption>
        </properties>
       </variant>
      </node>
      <node identifier="a6146419-3e1f-48e3-9b0c-412d50ba0370" nodeName="text1">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-        <language>de</language>
-       </dimensions>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:28:25+02:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T21:28:48+02:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T21:28:48+02:00</lastPublicationDateTime>
-       <properties>
-        <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet blandit nulla, et pharetra tellus. Duis id quam at quam aliquet ullamcorper. Integer consequat cursus lectus eget gravida. Cras at dignissim lectus. Aenean at dictum risus, quis luctus ligula. Sed semper eros sed nisl vehicula laoreet. Pellentesque pulvinar tempus odio egestas ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur facilisis mauris suscipit fringilla interdum. Nam accumsan neque eros, id tincidunt felis consectetur eu. Sed maximus, risus ac placerat fringilla, augue felis porta dolor, non scelerisque dolor ex et neque.&lt;br/&gt;&lt;br/&gt;Nulla facilisi. Fusce viverra tincidunt purus, blandit vehicula purus dapibus et. Suspendisse vulputate tempus justo ut efficitur. Etiam faucibus turpis vel vehicula maximus. Etiam sit amet scelerisque nulla, vel congue erat. Pellentesque tristique elementum eros eget faucibus. Nunc porta dapibus nisl ut rhoncus.&lt;br/&gt;&lt;br/&gt;Etiam et quam orci. Vestibulum et eros sit amet quam placerat egestas. Donec interdum nisi non blandit tincidunt. Mauris mauris libero, consequat a sapien ac, hendrerit pulvinar eros. Proin tempus ex sollicitudin, semper justo sit amet, imperdiet eros. Nulla accumsan mollis neque. Donec rutrum metus a vehicula placerat. Suspendisse eu mattis metus, vel facilisis nisi. Fusce nec nulla leo. Nunc nec volutpat tortor, vel mattis odio. Nulla ultricies nunc eu pellentesque bibendum.&lt;br/&gt;&lt;br/&gt;Nam ut diam ut nisl condimentum fringilla sed a justo. Aliquam tortor ante, posuere at lorem id, mattis ullamcorper nisi. Nunc nec felis ornare, interdum turpis scelerisque, porta ex. Ut maximus metus nec est suscipit, eget rutrum ipsum consequat. Morbi in lectus id enim vulputate consequat. Ut porttitor, mauris a luctus convallis, lorem ex interdum libero, et vestibulum nisl nisi ut libero. Sed justo nibh, sollicitudin et ex eget, consequat maximus nulla. Cras eu ultricies sem. Suspendisse cursus a odio eu tincidunt. In egestas enim nunc, eget tristique enim tincidunt non. Curabitur sit amet quam ante.&lt;br/&gt;&lt;br/&gt;Donec commodo ligula eget arcu rutrum gravida. Curabitur et mauris id elit gravida tempor eget non est. Nulla condimentum, felis a venenatis molestie, augue dui ullamcorper purus, in blandit nisi velit pharetra sem. Pellentesque id convallis magna, eget dignissim lorem. Mauris gravida nulla ligula, at suscipit est ornare faucibus. Phasellus et mauris eu lectus condimentum consequat aliquam et nisl. Nam nisl est, feugiat eu leo vel, varius auctor mauris. Nam vel iaculis lacus, sed dictum nisl. Aenean interdum massa sed sapien ullamcorper, eu dictum erat pulvinar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.google.com&quot;&gt;Check this external website&lt;/a&gt;&lt;/p&gt;</text>
-       </properties>
-      </variant>
       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>it</language>
@@ -180,16 +168,16 @@
         <text __type="string">&lt;p&gt;Parla Italiano&lt;br/&gt;&lt;/p&gt;</text>
        </properties>
       </variant>
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>fr</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:02:28+02:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T19:27:49+02:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T19:27:49+02:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T09:37:56+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T09:37:56+01:00</lastPublicationDateTime>
        <properties>
-        <text __type="string">&lt;p&gt;Je parle français ...&lt;/p&gt;</text>
+        <text __type="string">&lt;p&gt;Welcome on Neos CMS !&lt;/p&gt;</text>
        </properties>
       </variant>
       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
@@ -202,6 +190,18 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T21:00:17+02:00</lastPublicationDateTime>
        <properties>
         <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. &lt;a href=&quot;https://swiss.github.io/styleguide/en/pages/06.detail.html#&quot;&gt;Donec pede justo&lt;/a&gt;, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.&lt;br/&gt;&lt;/p&gt;</text>
+       </properties>
+      </variant>
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:28:25+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T21:28:48+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T21:28:48+02:00</lastPublicationDateTime>
+       <properties>
+        <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet blandit nulla, et pharetra tellus. Duis id quam at quam aliquet ullamcorper. Integer consequat cursus lectus eget gravida. Cras at dignissim lectus. Aenean at dictum risus, quis luctus ligula. Sed semper eros sed nisl vehicula laoreet. Pellentesque pulvinar tempus odio egestas ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur facilisis mauris suscipit fringilla interdum. Nam accumsan neque eros, id tincidunt felis consectetur eu. Sed maximus, risus ac placerat fringilla, augue felis porta dolor, non scelerisque dolor ex et neque.&lt;br/&gt;&lt;br/&gt;Nulla facilisi. Fusce viverra tincidunt purus, blandit vehicula purus dapibus et. Suspendisse vulputate tempus justo ut efficitur. Etiam faucibus turpis vel vehicula maximus. Etiam sit amet scelerisque nulla, vel congue erat. Pellentesque tristique elementum eros eget faucibus. Nunc porta dapibus nisl ut rhoncus.&lt;br/&gt;&lt;br/&gt;Etiam et quam orci. Vestibulum et eros sit amet quam placerat egestas. Donec interdum nisi non blandit tincidunt. Mauris mauris libero, consequat a sapien ac, hendrerit pulvinar eros. Proin tempus ex sollicitudin, semper justo sit amet, imperdiet eros. Nulla accumsan mollis neque. Donec rutrum metus a vehicula placerat. Suspendisse eu mattis metus, vel facilisis nisi. Fusce nec nulla leo. Nunc nec volutpat tortor, vel mattis odio. Nulla ultricies nunc eu pellentesque bibendum.&lt;br/&gt;&lt;br/&gt;Nam ut diam ut nisl condimentum fringilla sed a justo. Aliquam tortor ante, posuere at lorem id, mattis ullamcorper nisi. Nunc nec felis ornare, interdum turpis scelerisque, porta ex. Ut maximus metus nec est suscipit, eget rutrum ipsum consequat. Morbi in lectus id enim vulputate consequat. Ut porttitor, mauris a luctus convallis, lorem ex interdum libero, et vestibulum nisl nisi ut libero. Sed justo nibh, sollicitudin et ex eget, consequat maximus nulla. Cras eu ultricies sem. Suspendisse cursus a odio eu tincidunt. In egestas enim nunc, eget tristique enim tincidunt non. Curabitur sit amet quam ante.&lt;br/&gt;&lt;br/&gt;Donec commodo ligula eget arcu rutrum gravida. Curabitur et mauris id elit gravida tempor eget non est. Nulla condimentum, felis a venenatis molestie, augue dui ullamcorper purus, in blandit nisi velit pharetra sem. Pellentesque id convallis magna, eget dignissim lorem. Mauris gravida nulla ligula, at suscipit est ornare faucibus. Phasellus et mauris eu lectus condimentum consequat aliquam et nisl. Nam nisl est, feugiat eu leo vel, varius auctor mauris. Nam vel iaculis lacus, sed dictum nisl. Aenean interdum massa sed sapien ullamcorper, eu dictum erat pulvinar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.google.com&quot;&gt;Check this external website&lt;/a&gt;&lt;/p&gt;</text>
        </properties>
       </variant>
       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
