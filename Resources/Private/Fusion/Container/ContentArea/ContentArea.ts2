@@ -1,11 +1,7 @@
 prototype(WebStarter:Container.ContentArea) < prototype(Fusion:Template) {
     templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/ContentArea/ContentArea.html'
 
-    pageTitle = Fusion:Tag {
-        tagName = 'h1'
-        attributes.class = 'page-title'
-        content = ${q(documentNode).property('title')}
-    }
+    pageTitle = WebStarter:Object.PageTitle
 
     content = PrimaryContent {
         nodePath = 'main'

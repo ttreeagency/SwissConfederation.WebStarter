@@ -1,0 +1,7 @@
+prototype(WebStarter:Object.PageTitle) < prototype(Fusion:Tag) {
+    tagName = 'h1'
+    attributes {
+        class = 'page-title'
+    }
+    content = ${q(documentNode).property('title')}
+}
