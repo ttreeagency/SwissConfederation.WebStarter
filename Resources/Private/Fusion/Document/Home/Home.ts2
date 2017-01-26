@@ -1,0 +1,5 @@
+prototype(WebStarter:Home.Document) < prototype(WebStarter:Default.Document) {
+    prototype(WebStarter:Container.ContentArea) {
+        pageTitle = WebStarter:Object.PersonList
+    }
+}
