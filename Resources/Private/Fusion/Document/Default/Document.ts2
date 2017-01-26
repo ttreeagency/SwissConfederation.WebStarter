@@ -27,6 +27,10 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
             print = Ttree.StyleSheet:Resource {
                 uri = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/css/print.css'
             }
+            backend = Ttree.StyleSheet:Resource {
+                uri = 'resource://Ttree.SwissConfederation.WebStarter/Public/Styles/Backend.css'
+                @if.onlyRenderWhenNotInLiveWorkspace = ${documentNode.context.inBackend}
+            }
         }
 
         stylesheets.site = Fusion:Template {
