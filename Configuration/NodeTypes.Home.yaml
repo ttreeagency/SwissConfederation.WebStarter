@@ -1,0 +1,6 @@
+'Ttree.SwissConfederation.WebStarter:Home':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  ui:
+    label: 'Home'
+    icon: 'icon-home'
