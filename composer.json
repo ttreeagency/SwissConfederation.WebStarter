@@ -1,6 +1,6 @@
 {
     "name": "ttree/swissconfederation-webstarter",
-    "type": "typo3-flow-site",
+    "type": "neos-site",
     "description": "Swiss Confederation Web Guidelines implementation for Neos CMS",
     "require": {
         "ttree/fusion-documentfinder": "*",
