@@ -1,14 +1,20 @@
 
 Ttree:
+
   SwissConfederation:
     WebStarter:
+      dummyContent:
+        navigation: 'https://raw.githubusercontent.com/liip/bund_drupal_starterkit_dummycontent/master/data/navigation_menu_item.csv'
+
       navigation:
         service:
           startingPoint: '#c142ef64-ea36-423a-8a2a-c581812f5316'
+
   Fusion:
     DocumentFinder:
       documentPrototype:
         fallback: 'Ttree.SwissConfederation.WebStarter:Default.Document'
+
 Neos:
   ContentRepository:
     contentDimensions:
@@ -20,25 +26,25 @@ Neos:
         presets:
           all: null
           fr:
-            label: French
+            label: FR
             values:
               - fr
             uriSegment: fr
           de:
-            label: German
+            label: DE
             values:
               - de
               - fr
             uriSegment: de
           it:
-            label: Italian
+            label: IT
             values:
               - it
               - de
               - fr
             uriSegment: it
           rm:
-            label: Romansh
+            label: RM
             values:
               - rm
               - de
@@ -46,7 +52,7 @@ Neos:
               - it
             uriSegment: rm
           en:
-            label: English
+            label: EN
             values:
               - en
               - de

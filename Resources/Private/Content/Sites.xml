@@ -18,6 +18,19 @@
     </variant>
     <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
      <dimensions>
+      <language>de</language>
+     </dimensions>
+     <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:28:25+02:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T20:27:23+02:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T20:27:23+02:00</lastPublicationDateTime>
+     <properties>
+      <title __type="string">Department of the Environment, Transport, Energy and Communications</title>
+      <uriPathSegment __type="string">home</uriPathSegment>
+     </properties>
+    </variant>
+    <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
       <language>it</language>
      </dimensions>
      <accessRoles __type="array"/>
@@ -37,19 +50,6 @@
      <creationDateTime __type="object" __classname="DateTime">2016-10-05T20:19:37+02:00</creationDateTime>
      <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T20:19:40+02:00</lastModificationDateTime>
      <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T20:19:40+02:00</lastPublicationDateTime>
-     <properties>
-      <title __type="string">Department of the Environment, Transport, Energy and Communications</title>
-      <uriPathSegment __type="string">home</uriPathSegment>
-     </properties>
-    </variant>
-    <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
-     <dimensions>
-      <language>de</language>
-     </dimensions>
-     <accessRoles __type="array"/>
-     <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:28:25+02:00</creationDateTime>
-     <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T20:27:23+02:00</lastModificationDateTime>
-     <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T20:27:23+02:00</lastPublicationDateTime>
      <properties>
       <title __type="string">Department of the Environment, Transport, Energy and Communications</title>
       <uriPathSegment __type="string">home</uriPathSegment>
@@ -149,7 +149,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T21:23:05+02:00</lastPublicationDateTime>
        <properties>
         <caption __type="string">&lt;p&gt;Nulla facilisi. Fusce viverra tincidunt purus, blandit vehicula purus dapibus&lt;/p&gt;</caption>
-        <alignment __type="string"></alignment>
         <image __type="object" __identifier="23fb5df0-9a65-480a-8362-9cfdea01aa22" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;23fb5df0-9a65-480a-8362-9cfdea01aa22&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;photo-1461295025362-7547f63dbaea.jpeg&quot;,&quot;hash&quot;:&quot;79c963713c2512c8bd5e80d8043b0e540642f746&quot;,&quot;__identity&quot;:&quot;227f4976-057c-49bc-8c48-615475808346&quot;}}</image>
         <hasCaption __type="boolean">1</hasCaption>
        </properties>
@@ -158,26 +157,14 @@
      <node identifier="a6146419-3e1f-48e3-9b0c-412d50ba0370" nodeName="text1">
       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
-        <language>it</language>
+        <language>rm</language>
        </dimensions>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:10+02:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:24+02:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:24+02:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:29:46+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:04+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:04+02:00</lastPublicationDateTime>
        <properties>
-        <text __type="string">&lt;p&gt;Parla Italiano&lt;br/&gt;&lt;/p&gt;</text>
-       </properties>
-      </variant>
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-        <language>fr</language>
-       </dimensions>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:02:28+02:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T09:37:56+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T09:37:56+01:00</lastPublicationDateTime>
-       <properties>
-        <text __type="string">&lt;p&gt;Welcome on Neos CMS !&lt;/p&gt;</text>
+        <text __type="string">&lt;p&gt;Ich spreche Rumantsch ...&lt;br/&gt;&lt;/p&gt;</text>
        </properties>
       </variant>
       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
@@ -206,14 +193,26 @@
       </variant>
       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
-        <language>rm</language>
+        <language>it</language>
        </dimensions>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:29:46+02:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:04+02:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:04+02:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:10+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:24+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:24+02:00</lastPublicationDateTime>
        <properties>
-        <text __type="string">&lt;p&gt;Ich spreche Rumantsch ...&lt;br/&gt;&lt;/p&gt;</text>
+        <text __type="string">&lt;p&gt;Parla Italiano&lt;br/&gt;&lt;/p&gt;</text>
+       </properties>
+      </variant>
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:02:28+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T09:37:56+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T09:37:56+01:00</lastPublicationDateTime>
+       <properties>
+        <text __type="string">&lt;p&gt;Welcome on Neos CMS !&lt;/p&gt;</text>
        </properties>
       </variant>
      </node>
@@ -337,6 +336,3206 @@
         <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:04:24+02:00</creationDateTime>
         <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T19:26:12+02:00</lastModificationDateTime>
         <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T19:04:30+02:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="bde143b1-d32b-4980-b38a-0589e9598dad" nodeName="node-5889d5fa22127">
+     <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+      <properties>
+       <title __type="string">Design web de la Confédération</title>
+       <uriPathSegment __type="string">node-5889d5fa22127</uriPathSegment>
+      </properties>
+     </variant>
+     <node identifier="613b5c8e-0ffd-41db-bd67-c06258f47ddd" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="368b0ed5-a691-46e8-bea4-707a48dab246" nodeName="node-5889d5fa29dc6">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Application des lignes directrices web de la Confédération</title>
+        <uriPathSegment __type="string">node-5889d5fa29dc6</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="7e5c9288-2091-4c6d-b003-c2eeec1396ef" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="cff94b63-f3ad-4477-9573-c565f07bd9cd" nodeName="node-5889d5fa2d361">
+      <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Eléments de marque</title>
+        <uriPathSegment __type="string">node-5889d5fa2d361</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="21be6bda-651d-4ed3-8c06-3934ce5cdd38" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="9d967187-b462-4e6a-bc4f-7354d774fcdf" nodeName="node-5889d5fa2ff6a">
+      <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Grille de base et types de pages</title>
+        <uriPathSegment __type="string">node-5889d5fa2ff6a</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="f2530904-de2a-4280-a0bd-578084940546" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="53fc6b2e-a815-441b-9c47-16a64fe6aa80" nodeName="node-5889d5fa32e4d">
+      <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Pages d’exemple</title>
+        <uriPathSegment __type="string">node-5889d5fa32e4d</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="1ff6d7a1-e1e4-455e-ab5e-1909a11a2293" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="312417d0-c085-4894-8a09-5bbf7efc2daa" nodeName="node-5889d5fa3617d">
+      <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">En-tête et pied de page</title>
+        <uriPathSegment __type="string">node-5889d5fa3617d</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="255e77f5-359c-40a4-9dc4-5b7668b70035" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="55d2eda7-318f-4d7d-8bb1-d81e0cd30f55" nodeName="node-5889d5fa38e38">
+      <variant sortingIndex="700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Rendu sur différents appareils</title>
+        <uriPathSegment __type="string">node-5889d5fa38e38</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="b64722fd-79f4-4b30-b52a-e24641345860" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="75eba90a-ed63-48a2-bbff-701303f56677" nodeName="node-5889d5fa3c0ae">
+      <variant sortingIndex="800" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Accessibilité</title>
+        <uriPathSegment __type="string">node-5889d5fa3c0ae</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="160d5e6b-4232-41a0-926d-ef355bc2d9ef" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="30e06876-73b6-49a4-a475-beeeee4ee42b" nodeName="node-5889d5fa3eea4">
+      <variant sortingIndex="900" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Traductions</title>
+        <uriPathSegment __type="string">node-5889d5fa3eea4</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="d19b6caa-1137-4874-9cc5-0fbccae72625" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="1ad9481a-4814-4b81-b0a7-1df25beda42e" nodeName="node-5889d5fa423f5">
+     <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+      <properties>
+       <title __type="string">Grille de base</title>
+       <uriPathSegment __type="string">node-5889d5fa423f5</uriPathSegment>
+      </properties>
+     </variant>
+     <node identifier="1b9a20a4-36cf-4c3c-aee9-d7ec5db3a103" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="a9bd02ff-ab1f-4742-8894-a9869ba0484c" nodeName="node-5889d5fa449cf">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Eléments de formulaire</title>
+        <uriPathSegment __type="string">node-5889d5fa449cf</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="53c222da-cf5c-4088-baab-9b6eff3305ed" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="6170d691-b6d2-4412-8f23-3a4c2ca284db" nodeName="node-5889d5fa48000">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Regroupement d’éléments de formulaire</title>
+         <uriPathSegment __type="string">node-5889d5fa48000</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="fd24a87f-43db-438d-9de7-802381db7720" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="35a95e0c-fc3a-4aa1-b151-cd155cd30d1d" nodeName="node-5889d5fa4b758">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Champs de saisie</title>
+         <uriPathSegment __type="string">node-5889d5fa4b758</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="a8de05e8-ab5a-4c67-a3df-98bb100b580f" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="bedf3ad9-88e1-4e50-b381-dd3549877b90" nodeName="node-5889d5fa4f224">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Listes de sélection</title>
+         <uriPathSegment __type="string">node-5889d5fa4f224</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="18024989-5649-4d4f-89e0-72d5e7c3ea1d" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="537fb769-dfa5-4d06-bb81-448c8bb16487" nodeName="node-5889d5fa52ca8">
+       <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Cases à cocher</title>
+         <uriPathSegment __type="string">node-5889d5fa52ca8</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="9180927f-7055-4a64-ad9b-faec193bc277" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="04ef6794-c0c0-4b68-9c3b-474f3d900658" nodeName="node-5889d5fa5621a">
+       <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Boutons radio</title>
+         <uriPathSegment __type="string">node-5889d5fa5621a</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="aecb791b-506c-4ef9-a006-32a3f2dfa92a" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="f18f1d25-3202-40b6-aa18-d3afc8e3be2a" nodeName="node-5889d5fa59ca0">
+       <variant sortingIndex="700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Boutons</title>
+         <uriPathSegment __type="string">node-5889d5fa59ca0</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="9f43c373-0795-4a8e-acd2-78ae5dfde930" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="52565377-974b-4ca4-b515-27fb03dab29d" nodeName="node-5889d5fa5fae9">
+       <variant sortingIndex="800" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Groupes de boutons</title>
+         <uriPathSegment __type="string">node-5889d5fa5fae9</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="43783f2f-33ad-4b81-80e8-6120b166574e" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="96c7b813-f9be-4ccc-a070-8278127b1bc4" nodeName="node-5889d5fa632ba">
+      <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Généralités</title>
+        <uriPathSegment __type="string">node-5889d5fa632ba</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="533ab1a0-310f-47c2-bfe9-ef04371d0552" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="4611a55c-fcd7-438e-95e4-a34154fa7761" nodeName="node-5889d5fa666f9">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Logo</title>
+         <uriPathSegment __type="string">node-5889d5fa666f9</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="36c8df07-bead-4451-9c02-a700cb45a4f3" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="dd84eda4-0bff-4d75-a3b4-3e70df0e48de" nodeName="node-5889d5fa6a6b1">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Palette de couleurs</title>
+         <uriPathSegment __type="string">node-5889d5fa6a6b1</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="10c82680-d4a5-44da-96d6-fb669ace8e9f" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="5d87d872-0be8-42c4-856b-4c63da6263df" nodeName="node-5889d5fa6dc27">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Arrière-plan</title>
+         <uriPathSegment __type="string">node-5889d5fa6dc27</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="104d1d98-63e0-4a07-976e-07ea4f4b8858" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="3453c42d-d49f-421b-a2ed-5034c171d92f" nodeName="node-5889d5fa7179d">
+       <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Formats d’image</title>
+         <uriPathSegment __type="string">node-5889d5fa7179d</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="c98cdc0e-2ba4-41fd-b171-781e9fb84fcf" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="9b2b2608-1eb9-440b-838a-a1d3818df899" nodeName="node-5889d5fa74eca">
+       <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Image standard</title>
+         <uriPathSegment __type="string">node-5889d5fa74eca</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="96555e9c-bb78-43af-a016-3857e0353f5c" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="4b8d64ee-c7b5-4d6f-afef-05883748fa45" nodeName="node-5889d5fa78889">
+       <variant sortingIndex="700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Image avec légende</title>
+         <uriPathSegment __type="string">node-5889d5fa78889</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="d4c39f3b-7653-46e4-8afb-f25c445f39d3" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="3e4bbb68-0f43-43b5-828f-d8118a0d3f0a" nodeName="node-5889d5fa7be6e">
+       <variant sortingIndex="800" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Formats d’image</title>
+         <uriPathSegment __type="string">node-5889d5fa7be6e</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="c159a8f1-43fb-44d8-9385-d44b93e5037d" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="24a8877a-1c26-496c-9594-63883944d276" nodeName="node-5889d5fa7fb47">
+       <variant sortingIndex="900" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Icônes</title>
+         <uriPathSegment __type="string">node-5889d5fa7fb47</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="ca3030ec-6b7f-4c01-88dc-d6eac14500a6" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="65be4e5a-2870-412f-8559-a8900f26f1c8" nodeName="node-5889d5fa83837">
+      <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Tableaux</title>
+        <uriPathSegment __type="string">node-5889d5fa83837</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="f01364ec-380c-4422-9328-489baeea966e" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="ed1e47e0-cb05-4c5d-ad81-eeac4df6966f" nodeName="node-5889d5fa863de">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau standard</title>
+         <uriPathSegment __type="string">node-5889d5fa863de</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="8df56845-ad3a-4310-a213-11f8a77de1fc" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="54363a48-cd10-421e-aeef-0415746be9c8" nodeName="node-5889d5fa8a31b">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau imbriqué (simple)</title>
+         <uriPathSegment __type="string">node-5889d5fa8a31b</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="4059dcce-493f-4377-98fa-9bd79e2cb00a" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="6d1833f3-2585-4bd7-a80e-f829424f544b" nodeName="node-5889d5fa8da60">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau imbriqué (multiple)</title>
+         <uriPathSegment __type="string">node-5889d5fa8da60</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="36870d9e-017c-4f93-86ed-f1a4f6eab02b" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="572c01fc-b4b3-468c-adbf-45a35739d825" nodeName="node-5889d5fa91a0d">
+       <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau avec titre</title>
+         <uriPathSegment __type="string">node-5889d5fa91a0d</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="898709ca-f123-4884-82cc-c4f315375aba" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="bcbbd8c4-b7dd-4d84-8ecb-c3a91a9cfb46" nodeName="node-5889d5fa9535d">
+       <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau avec fonds alternés</title>
+         <uriPathSegment __type="string">node-5889d5fa9535d</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="394087af-7c4e-493b-8c38-34cdc6c58c81" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="62fdb7a3-d16a-4687-a73d-87118c99f77e" nodeName="node-5889d5fa98d3f">
+       <variant sortingIndex="700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau imbriqué avec fonds alternés (simple)</title>
+         <uriPathSegment __type="string">node-5889d5fa98d3f</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="f8a618c5-4faf-4da1-b043-0c42818edf87" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="30a81e1b-0f87-4cb1-9676-7ac2a358ef43" nodeName="node-5889d5fa9ca23">
+       <variant sortingIndex="800" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau imbriqué avec fonds alternés (multiple)</title>
+         <uriPathSegment __type="string">node-5889d5fa9ca23</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="c1ce1e8f-0cb2-47ea-9548-5fc41aa5b745" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="fd331092-e467-4982-8ba2-a6e4f7b45551" nodeName="node-5889d5faa0139">
+       <variant sortingIndex="900" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau à fonds alternés avec titre</title>
+         <uriPathSegment __type="string">node-5889d5faa0139</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="88878236-76bb-4085-abb7-a7bd6a561c40" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="b3758515-ccad-4bb0-8465-02447691ab24" nodeName="node-5889d5faa3d7d">
+       <variant sortingIndex="1000" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau avec mise en évidence</title>
+         <uriPathSegment __type="string">node-5889d5faa3d7d</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="ea21a6e6-8e9a-4af0-97dd-cf98471d8c93" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="14692671-4975-45e1-92be-c18b994a24d5" nodeName="node-5889d5faa7cfc">
+       <variant sortingIndex="1100" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau imbriqué avec mise en évidence (simple)</title>
+         <uriPathSegment __type="string">node-5889d5faa7cfc</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="30a2ec9b-f771-4d70-8c5b-11fa52bcc8b4" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="5b13e1f0-c9bf-43bf-af31-fb148d068e45" nodeName="node-5889d5faab264">
+       <variant sortingIndex="1200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau imbriqué avec mise en évidence (multiple)</title>
+         <uriPathSegment __type="string">node-5889d5faab264</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="20b8e4ff-6529-419b-a195-28fe6b18d358" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="90b675e2-4c0f-4b2c-ba3f-6964ba0457ac" nodeName="node-5889d5faaeb13">
+       <variant sortingIndex="1300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau avec titre et mise en évidence</title>
+         <uriPathSegment __type="string">node-5889d5faaeb13</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="0a763e6b-d8d0-4ad8-8ab3-44da4433d9af" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="fe7c1c70-3128-4572-af3c-d1b5504bd234" nodeName="node-5889d5fab2cb2">
+       <variant sortingIndex="1400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau triable</title>
+         <uriPathSegment __type="string">node-5889d5fab2cb2</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="e724bb84-9b01-468a-8e6e-44bdbeb92730" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="917e83f8-e9ae-4e6d-92de-f28bbe716c74" nodeName="node-5889d5fab61eb">
+       <variant sortingIndex="1500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau avec masquage et affichage de lignes</title>
+         <uriPathSegment __type="string">node-5889d5fab61eb</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="077bfc17-2055-4fe1-96c6-6677594dea52" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="d4c82161-9719-4b20-93b9-a00d6fba3c6d" nodeName="node-5889d5fab9860">
+       <variant sortingIndex="1600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableau avec lignes</title>
+         <uriPathSegment __type="string">node-5889d5fab9860</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="0014e310-aad5-4de8-8627-d3d68932b073" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="0b94b34c-26e5-41de-964b-7d56a8a198c0" nodeName="node-5889d5fabd456">
+       <variant sortingIndex="1700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Tableaux sans lignes</title>
+         <uriPathSegment __type="string">node-5889d5fabd456</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="6f939d5d-a6a6-4700-bb70-8b36a3ce8ff5" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="b78673c7-c727-4fb6-9622-9e0535a00904" nodeName="node-5889d5fac10e4">
+      <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Typographie</title>
+        <uriPathSegment __type="string">node-5889d5fac10e4</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="aa350b6a-c4f4-4596-807e-da4edebee991" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="1d12ec6a-f544-4c10-b42a-9386f7719e02" nodeName="node-5889d5fac3e01">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Titres</title>
+         <uriPathSegment __type="string">node-5889d5fac3e01</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="77743572-eb60-45f1-9a42-b453a40f96b2" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="5fd47ca3-ffd5-418a-8dad-67bfea5e508c" nodeName="node-5889d5fac7f66">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Paragraphes</title>
+         <uriPathSegment __type="string">node-5889d5fac7f66</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="d46e1716-d799-4e0e-86bb-5a49f5ea8334" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="f13ec838-a813-4da5-bea9-72ad1a8143bd" nodeName="node-5889d5facbce0">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Corps de texte</title>
+         <uriPathSegment __type="string">node-5889d5facbce0</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="0a75f343-5801-46c2-8951-89a41871fce0" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="71a0a2a4-a189-427a-ada3-55631dbae0dd" nodeName="node-5889d5facf0c0">
+       <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Citation</title>
+         <uriPathSegment __type="string">node-5889d5facf0c0</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="492dbcb1-1fb1-464c-a305-0868c32de87e" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="d97d208d-56ae-45a8-8c30-85adda587a6e" nodeName="node-5889d5fad2932">
+       <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Listes</title>
+         <uriPathSegment __type="string">node-5889d5fad2932</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="f1bd75e2-9f29-46e3-a6c1-213693cb4df7" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="62189886-b39f-471a-858e-d08fd833c741" nodeName="node-5889d5fad658a">
+       <variant sortingIndex="700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Liste sans numérotation ou puces</title>
+         <uriPathSegment __type="string">node-5889d5fad658a</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="0db94edf-b659-4fbf-a5dc-e393d324d992" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="b4a67c85-5a59-476b-95e8-a58c2a174277" nodeName="node-5889d5fada347">
+       <variant sortingIndex="800" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Liste de définitions</title>
+         <uriPathSegment __type="string">node-5889d5fada347</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="ff5e1c64-1db5-43d4-8565-d50acb629458" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="101a4575-b20d-4e47-bd37-8aee6285fd01" nodeName="node-5889d5fadda81">
+       <variant sortingIndex="900" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Liens</title>
+         <uriPathSegment __type="string">node-5889d5fadda81</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="50d4188d-f02c-4774-9324-cda5d15eae4c" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="a9e493a0-a5f2-4404-a95a-9b3c3b498245" nodeName="node-5889d5fae1822">
+       <variant sortingIndex="1000" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Lien vers le haut de page</title>
+         <uriPathSegment __type="string">node-5889d5fae1822</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="00fa63a0-4bc6-49f5-b114-5fb3c63c6f5b" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="1527e56e-5a49-4794-8047-a2a6dc3b4b3b" nodeName="node-5889d5fae55e4">
+       <variant sortingIndex="1100" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Lien de fin de page</title>
+         <uriPathSegment __type="string">node-5889d5fae55e4</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="55766afc-544a-45db-a716-36e4348a98f8" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="762cd7e4-5a71-4515-896d-526774ad16c1" nodeName="node-5889d5fae8cd8">
+     <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+      <properties>
+       <title __type="string">Modules de navigation</title>
+       <uriPathSegment __type="string">node-5889d5fae8cd8</uriPathSegment>
+      </properties>
+     </variant>
+     <node identifier="22b8573a-37e4-4482-b512-a5035a644540" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="75c8b926-cc1c-42a6-94bd-13937f42dbf8" nodeName="node-5889d5faeb7cb">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Navigation hiérarchique</title>
+        <uriPathSegment __type="string">node-5889d5faeb7cb</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="88346d02-f5ea-4857-b88e-26cd2dd28da8" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="db62316c-520f-4731-b382-b31f2586fe8d" nodeName="node-5889d5faee9dc">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Navigation globale</title>
+         <uriPathSegment __type="string">node-5889d5faee9dc</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="f8cbf9a9-3cce-4794-bb4c-14fd29d59af4" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="a5749bb4-e75a-415d-a6d4-7dbf0570f6ad" nodeName="node-5889d5faf2a80">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Fil d’Ariane</title>
+         <uriPathSegment __type="string">node-5889d5faf2a80</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="c3f52d21-5759-4920-bc65-0c4e31a526e1" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:58+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="02ab4e63-c94e-4d75-996e-af01983106ab" nodeName="node-5889d5fb01fa1">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Retour à l’aperçu</title>
+         <uriPathSegment __type="string">node-5889d5fb01fa1</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="b692054b-91a9-41fd-a91d-2f8c15a07064" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="a6fed7df-2baf-41bb-b163-7f25c142c3f7" nodeName="node-5889d5fb05da5">
+       <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Liste de navigation latérale (sous-navigation de gauche)</title>
+         <uriPathSegment __type="string">node-5889d5fb05da5</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="006757cd-51a6-409e-b754-fca7c53b6d4d" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="6047d141-ad24-4e95-b3a7-f8c8afa597fc" nodeName="node-5889d5fb09a80">
+       <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Navigation à facettes</title>
+         <uriPathSegment __type="string">node-5889d5fb09a80</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="3b93957a-82e6-4474-98da-b3e91b9b43ea" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="110fa346-12b3-40a5-b456-18ed17f5ccdf" nodeName="node-5889d5fb0d087">
+      <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Zone d’en-tête</title>
+        <uriPathSegment __type="string">node-5889d5fb0d087</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="ae22ed39-3878-41ba-9e6a-2c2159e328db" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="71ec817c-d936-4273-b066-49e3d8c982ca" nodeName="node-5889d5fb10559">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Logo avec lien vers la page d’accueil</title>
+         <uriPathSegment __type="string">node-5889d5fb10559</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="455bf539-5ffb-49b2-98a6-12e9a41b794a" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="db420b39-c246-4af7-bc85-5b90e439aab6" nodeName="node-5889d5fb14666">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Navigation accessible</title>
+         <uriPathSegment __type="string">node-5889d5fb14666</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="97e885be-1dab-4ae6-9267-5fc73cde0b1e" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="b4f40dc4-e091-4af5-9b84-5c6d909738f9" nodeName="node-5889d5fb17c35">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Navigation de service</title>
+         <uriPathSegment __type="string">node-5889d5fb17c35</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="9f9299d0-c65e-4a3c-94d2-311a7997b9c6" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="bfe8d3dd-8f28-47e6-8607-fc5d4cefd64a" nodeName="node-5889d5fb1b82f">
+       <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Recherche sur le site</title>
+         <uriPathSegment __type="string">node-5889d5fb1b82f</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="c3fbbda8-7b82-4ed3-931b-73c0dfd546f0" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="9709c2b6-1fe2-4507-9057-5b9fc17cbe54" nodeName="node-5889d5fb1f695">
+       <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Choix de la langue</title>
+         <uriPathSegment __type="string">node-5889d5fb1f695</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="753f3e97-aba6-449c-91df-774b4eae98fd" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="721ed8b6-1273-4ea0-88d4-6fe0fb7d73c7" nodeName="node-5889d5fb23047">
+       <variant sortingIndex="700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Thèmes A-Z</title>
+         <uriPathSegment __type="string">node-5889d5fb23047</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="acb29b25-1806-4e60-a79b-8192583444c1" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="f5183a0b-81d3-4ca8-b645-3cda0e09258d" nodeName="node-5889d5fb2687b">
+       <variant sortingIndex="800" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Arborescence de l’administration fédérale</title>
+         <uriPathSegment __type="string">node-5889d5fb2687b</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="54034ba2-b083-4dfd-8333-17d017a7f181" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="f6c9ee98-1def-4458-b774-10cfd252aca9" nodeName="node-5889d5fb2a694">
+      <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Navigation de contenu</title>
+        <uriPathSegment __type="string">node-5889d5fb2a694</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="3af09a51-5502-4d15-9886-aee3e355aafa" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="11e2ed8c-b481-41ec-8442-8f2abe2d2b46" nodeName="node-5889d5fb2d9e0">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Pagination</title>
+         <uriPathSegment __type="string">node-5889d5fb2d9e0</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="6ede10d5-bbb1-43cc-a40c-c0bae6923e30" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="688fce72-5be8-4079-aa83-cae2404c2a88" nodeName="node-5889d5fb317cc">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Liens d’ancre</title>
+         <uriPathSegment __type="string">node-5889d5fb317cc</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="3982298b-20dc-4d70-8d53-8b38fd7c6103" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="4fb85dee-e230-40d9-ac95-131a0a80c2aa" nodeName="node-5889d5fb357c9">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Navigation de processus</title>
+         <uriPathSegment __type="string">node-5889d5fb357c9</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="fe0c80c8-a1d8-4b23-ae64-8ba488f6d929" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="8ff2aff3-d392-4517-af83-06f6c941a5e7" nodeName="node-5889d5fb396e4">
+       <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Navigation par onglets</title>
+         <uriPathSegment __type="string">node-5889d5fb396e4</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="51d90204-7bd2-4363-b11b-b4c13d29e635" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="b3c1dbf0-1520-4141-816f-48c38ffbafdc" nodeName="node-5889d5fb3ccf8">
+      <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Pied de page (footer)</title>
+        <uriPathSegment __type="string">node-5889d5fb3ccf8</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="0fb8694b-8248-467b-9a25-bd04c42de178" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="0a100f0a-c7c5-4535-ae1e-b1d811586164" nodeName="node-5889d5fb40243">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Sitemap (plan du site) et partenaires</title>
+         <uriPathSegment __type="string">node-5889d5fb40243</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="0390b839-8465-45a3-a51d-410ec4e45ff0" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="f4bf3021-572f-4fab-8ac9-8993be339da9" nodeName="node-5889d5fb444db">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Médias sociaux</title>
+         <uriPathSegment __type="string">node-5889d5fb444db</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="03f5e321-af4f-4b17-91c8-fe86dbb0a1c3" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="fdff2414-05a2-4016-950c-aea8c61cf922" nodeName="node-5889d5fb47cf6">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Ligne de pied de page</title>
+         <uriPathSegment __type="string">node-5889d5fb47cf6</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="82b28706-6ba0-403c-98ae-145b28052cac" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="13d0e868-f1cd-42c6-ab48-e6b5fb7e72fc" nodeName="node-5889d5fb4b78b">
+     <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+      <properties>
+       <title __type="string">Modules de contenu</title>
+       <uriPathSegment __type="string">node-5889d5fb4b78b</uriPathSegment>
+      </properties>
+     </variant>
+     <node identifier="1f9b1987-f177-47c3-8bfc-992c7feb9254" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="57f98e65-7a3c-45d2-852b-5aabb0836323" nodeName="node-5889d5fb4e401">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Eléments standard</title>
+        <uriPathSegment __type="string">node-5889d5fb4e401</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="31f3085b-5a8f-44d6-9e5b-5a10fc24ee9d" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="f49914d8-75c5-4e0b-8a60-90cbcb2356ee" nodeName="node-5889d5fb51c36">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Titre de page</title>
+         <uriPathSegment __type="string">node-5889d5fb51c36</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="d06b96e4-71aa-40cd-bde4-af0e88a5b3fc" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="8cc6db7f-f8f1-418e-a372-974e15592b27" nodeName="node-5889d5fb559f6">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Texte et image</title>
+         <uriPathSegment __type="string">node-5889d5fb559f6</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="eddbf138-cf1d-4e95-a963-37f3d374141f" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="f6c078f7-1b3e-4512-8c08-4bac511ce807" nodeName="node-5889d5fb59795">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Encadré d’information</title>
+         <uriPathSegment __type="string">node-5889d5fb59795</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="7d178682-1063-4f03-a67b-442c66fa3564" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="ac735e88-f9ba-4a84-ab7f-6a547869615e" nodeName="node-5889d5fb5d77c">
+      <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Conteneurs</title>
+        <uriPathSegment __type="string">node-5889d5fb5d77c</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="2a70a134-d880-4e26-a013-4459bf8f94dc" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="c150f385-5bde-4ef3-941b-45671dff5488" nodeName="node-5889d5fb606fd">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Liste d’éléments</title>
+         <uriPathSegment __type="string">node-5889d5fb606fd</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="5941393e-24f2-4e2b-8159-25bb4beeae93" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="bc3e41bd-1b85-4ef2-9eda-bf96299c73ae" nodeName="node-5889d5fb643c1">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Informations complémentaires</title>
+         <uriPathSegment __type="string">node-5889d5fb643c1</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="da98df28-e53c-42c0-a089-1f024008dd9a" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="326bf4ce-d794-49fd-982e-1f2480aec33a" nodeName="node-5889d5fb68191">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Encadré rétractable</title>
+         <uriPathSegment __type="string">node-5889d5fb68191</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="8ada5445-dba9-4816-a944-c8c31c4c2cce" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="cc33f91b-df5c-4d0a-bdb6-ff507bf93b20" nodeName="node-5889d5fb6be83">
+      <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Widgets</title>
+        <uriPathSegment __type="string">node-5889d5fb6be83</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="3083e492-ce50-4c5a-b6d4-ad052663ac94" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="14bf35cd-f95d-4ea4-b8ca-e1200775afb2" nodeName="node-5889d5fb6ee50">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Remarques</title>
+         <uriPathSegment __type="string">node-5889d5fb6ee50</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="e40d4f2f-8c99-4271-94e7-f697c915df94" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="c41fbcfc-37f0-4c49-96e7-c375c3fc853d" nodeName="node-5889d5fb73261">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Bannière de crise</title>
+         <uriPathSegment __type="string">node-5889d5fb73261</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="b2692e7b-747d-4ece-9415-e721f018d48b" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="bcc54a18-b2ae-4eed-85c1-0567d8f4c40e" nodeName="node-5889d5fb76fc2">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Encadré de contact</title>
+         <uriPathSegment __type="string">node-5889d5fb76fc2</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="2fe55d77-4b8d-40eb-858c-5532778feb25" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="3724c2bd-8ade-4a4d-8a60-cf3b69b70daf" nodeName="node-5889d5fb7a72e">
+      <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Fonctions</title>
+        <uriPathSegment __type="string">node-5889d5fb7a72e</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="1e1cf98a-8cd8-4ec9-80a6-306d7c16b537" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="90e4ef4e-043c-4b28-9f25-8bc8cc58cb84" nodeName="node-5889d5fb7dbcb">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Imprimer</title>
+         <uriPathSegment __type="string">node-5889d5fb7dbcb</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="e84fd353-6c57-4f1d-85b8-201a59f5ca87" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="0113d2cb-157e-4329-a55f-47ec10928f31" nodeName="node-5889d5fb81e62">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Partager des contenus (Social sharing)</title>
+         <uriPathSegment __type="string">node-5889d5fb81e62</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="93df6225-f408-43ca-b2e9-493fe75ca788" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="7359fcf1-368d-43a4-97d6-09e536ed8ca7" nodeName="node-5889d5fb8553a">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Téléchargement de fichier</title>
+         <uriPathSegment __type="string">node-5889d5fb8553a</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="abdca426-57c8-4793-a8ae-4bd5499b43c1" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="11320df1-bc0c-445f-af8d-81828880030d" nodeName="node-5889d5fb893bf">
+      <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Teaser</title>
+        <uriPathSegment __type="string">node-5889d5fb893bf</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="dba300fd-07f2-4ac2-89b4-7976f2b1f686" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="08878e25-fc28-4592-80bd-f2aabefa057f" nodeName="node-5889d5fb8c626">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">A la une</title>
+         <uriPathSegment __type="string">node-5889d5fb8c626</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="225eae61-acef-4429-aaf0-0554d94ca685" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="8f6b8de9-cf39-47d1-9ff0-b3df2041b05b" nodeName="node-5889d5fb906dc">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Actualités</title>
+         <uriPathSegment __type="string">node-5889d5fb906dc</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="a1618646-42db-4930-ac85-b2803a04869f" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="225982fc-b0f5-4efb-b47f-06481923a2ae" nodeName="node-5889d5fb93fd9">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Barre de titre pour teaser</title>
+         <uriPathSegment __type="string">node-5889d5fb93fd9</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="c6295886-8a21-454c-9c96-c011e0ea7a24" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="1c44ea71-78d2-45b8-ae31-6192dde2966d" nodeName="node-5889d5fb97f92">
+       <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Carrousel</title>
+         <uriPathSegment __type="string">node-5889d5fb97f92</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="e63d4a0a-bd7e-4503-a044-8ca08dee9e02" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="23057ce0-02aa-4f69-bfe8-0c5f1a4d736b" nodeName="node-5889d5fb9bd59">
+       <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Diaporama</title>
+         <uriPathSegment __type="string">node-5889d5fb9bd59</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="e0184a30-3f95-4a06-93bd-4c2ac2d59604" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="f9ed37a8-00d0-4d8d-9a7c-f44814839b0c" nodeName="node-5889d5fb9f55c">
+       <variant sortingIndex="700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Teaser de texte</title>
+         <uriPathSegment __type="string">node-5889d5fb9f55c</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="2c90379c-7925-4549-b286-51aaec03226f" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="2d685fcc-0302-484a-8a39-ed5d2c413a54" nodeName="node-5889d5fba37ae">
+       <variant sortingIndex="800" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Teaser de dossier</title>
+         <uriPathSegment __type="string">node-5889d5fba37ae</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="22fd7289-a4c3-4b1a-8757-8f60287396c5" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="ab8495eb-9a58-4365-9864-382ed0b9ac3b" nodeName="node-5889d5fba7682">
+       <variant sortingIndex="900" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Teaser de personne</title>
+         <uriPathSegment __type="string">node-5889d5fba7682</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="23f0e28f-d89e-45c5-a1b5-ca64203d0d18" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="ad877479-9805-4fb6-8a1a-7730c4230d9c" nodeName="node-5889d5fbaafb6">
+       <variant sortingIndex="1000" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Présentation des publications</title>
+         <uriPathSegment __type="string">node-5889d5fbaafb6</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="f0082be6-6d36-4af8-8a9b-d04efccdccf3" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="078129a5-c07e-48fb-be51-f95ae33f381e" nodeName="node-5889d5fbaef11">
+       <variant sortingIndex="1100" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Flux d’actualités</title>
+         <uriPathSegment __type="string">node-5889d5fbaef11</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="7691f865-b4d0-458d-bcc5-25f4184d3710" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="22176401-2ab6-419b-a9d3-c870370b3f82" nodeName="node-5889d5fbb2d38">
+       <variant sortingIndex="1200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Flux RSS</title>
+         <uriPathSegment __type="string">node-5889d5fbb2d38</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="a5e1f9e1-b6c7-463f-b7b9-1a2537216a45" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="06be0e5a-e13d-4dfa-93a9-b939b52c481a" nodeName="node-5889d5fbb6589">
+      <variant sortingIndex="700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Multimédia</title>
+        <uriPathSegment __type="string">node-5889d5fbb6589</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="c87cf22f-f926-4352-8342-165562cff8b2" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="e3dd81a4-8caf-461a-8abf-1a9d6bc1c497" nodeName="node-5889d5fbb96fc">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Aperçu de galerie d’images</title>
+         <uriPathSegment __type="string">node-5889d5fbb96fc</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="27749e41-b2ea-4e82-a6d4-943f1acfe7c8" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="9d40bfad-fe11-4801-a7db-5a6334dce144" nodeName="node-5889d5fbbdbb7">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Galerie d’images – vue individuelle</title>
+         <uriPathSegment __type="string">node-5889d5fbbdbb7</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="5b57a647-2024-4d13-888c-6fb37b14af25" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="333f525c-fd94-40ed-ab09-9a109a25ed74" nodeName="node-5889d5fbc178b">
+       <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Visionneuse</title>
+         <uriPathSegment __type="string">node-5889d5fbc178b</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="14c516e3-73e8-4364-9acd-0fee1039890b" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="daf0703a-5488-4582-b74d-e4a18dd4dc71" nodeName="node-5889d5fbc5027">
+      <variant sortingIndex="800" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Recherche</title>
+        <uriPathSegment __type="string">node-5889d5fbc5027</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="8cd06266-9aee-4bac-900a-b008ee10a9b0" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="12ab3635-4648-4aea-9c86-3238e97c1fa3" nodeName="node-5889d5fbc867d">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Masque de recherche</title>
+         <uriPathSegment __type="string">node-5889d5fbc867d</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="bb13744d-335a-4a92-a17d-f2e51bb8b6a3" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="b632ce39-8060-41f5-a74e-837122cbb1e8" nodeName="node-5889d5fbcc8f4">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Résultats de recherche</title>
+         <uriPathSegment __type="string">node-5889d5fbcc8f4</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="309aaece-67be-40f5-a145-046ec0eedbfa" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="026d6eac-524a-4383-a36e-7afd0c000ae8" nodeName="node-5889d5fbd0302">
+      <variant sortingIndex="900" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Commande et check-out</title>
+        <uriPathSegment __type="string">node-5889d5fbd0302</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="be5c7898-ed68-4a9f-8ba1-af7f40981ddf" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="38465508-7280-4c85-be0d-8705710dbe85" nodeName="node-5889d5fbd38c3">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Formulaire de commande à une ligne</title>
+         <uriPathSegment __type="string">node-5889d5fbd38c3</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="100b75c0-685b-4b98-bfc0-683637811b55" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+      <node identifier="17a4b9f2-f0ae-4dba-88bb-63570c61a4cf" nodeName="node-5889d5fbd7b70">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties>
+         <title __type="string">Panier</title>
+         <uriPathSegment __type="string">node-5889d5fbd7b70</uriPathSegment>
+        </properties>
+       </variant>
+       <node identifier="63389030-e4c4-430a-be3f-93708bbc98af" nodeName="main">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+         <properties/>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="f66a7253-749e-462c-a8e8-57d1f4d829fe" nodeName="node-5889d5fbdb56f">
+     <variant sortingIndex="700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>fr</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+      <properties>
+       <title __type="string">Pages d'exemple</title>
+       <uriPathSegment __type="string">node-5889d5fbdb56f</uriPathSegment>
+      </properties>
+     </variant>
+     <node identifier="7168fd13-e097-49e5-ad70-5e75a63e0920" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="ad7d1dd7-01a4-4184-9041-b7041414860c" nodeName="node-5889d5fbdde08">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Page d’accueil sans navigation globale</title>
+        <uriPathSegment __type="string">node-5889d5fbdde08</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="c6119f36-7026-4dbf-a1d6-9d96bdd70e02" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="936c9d38-47f5-4bbb-b3e9-685f1cff5988" nodeName="node-5889d5fbe18b6">
+      <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Page d’accueil avec navigation globale</title>
+        <uriPathSegment __type="string">node-5889d5fbe18b6</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="d7f64382-bff9-42ed-9d9a-0843660b02d3" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="473e7a84-73af-4908-8dad-5d1ec229570e" nodeName="node-5889d5fbe4f5a">
+      <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Page d’aperçu</title>
+        <uriPathSegment __type="string">node-5889d5fbe4f5a</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="b41db930-c160-4021-a98c-6396191e6a03" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="94cce530-7d56-4ee5-af30-2434fd1e0a62" nodeName="node-5889d5fbe7ddd">
+      <variant sortingIndex="500" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Page d’aperçu sans navigation globale</title>
+        <uriPathSegment __type="string">node-5889d5fbe7ddd</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="54a6835f-7587-4c20-8076-4984867d5dcc" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="b82a3d8a-5445-4b13-9100-9385afa06456" nodeName="node-5889d5fbeb37a">
+      <variant sortingIndex="600" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Publications</title>
+        <uriPathSegment __type="string">node-5889d5fbeb37a</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="b5307401-9871-42a1-941a-51d48f1de03a" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="7ad1a6e3-6945-4488-b514-9898ed6a1ef6" nodeName="node-5889d5fbee5d0">
+      <variant sortingIndex="700" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Page de détails</title>
+        <uriPathSegment __type="string">node-5889d5fbee5d0</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="6ef3f362-bbf5-4e33-8d5b-e79d553d5a30" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="5797543e-9bfc-4fc4-a667-3cb7c1c196a1" nodeName="node-5889d5fbf19bd">
+      <variant sortingIndex="800" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Formulaire</title>
+        <uriPathSegment __type="string">node-5889d5fbf19bd</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="c8015d13-c81c-4365-a606-ea417170b802" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:56:59+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="0b229e17-a299-4e56-ae5b-88e3928fb9ea" nodeName="node-5889d5fc00a3a">
+      <variant sortingIndex="900" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:57:00+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:57:00+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Résultats de recherche</title>
+        <uriPathSegment __type="string">node-5889d5fc00a3a</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="ed396c0d-4f27-465a-8829-3f5d3cf8b037" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:57:00+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:57:00+01:00</lastModificationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="039b1b3d-128c-49ff-9621-3e9805707f24" nodeName="node-5889d5fc0404d">
+      <variant sortingIndex="1000" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:57:00+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:57:00+01:00</lastModificationDateTime>
+       <properties>
+        <title __type="string">Sous-page</title>
+        <uriPathSegment __type="string">node-5889d5fc0404d</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="699543d2-f65c-40f3-a750-ca30b87f3fd9" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T11:57:00+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T11:57:00+01:00</lastModificationDateTime>
         <properties/>
        </variant>
       </node>
