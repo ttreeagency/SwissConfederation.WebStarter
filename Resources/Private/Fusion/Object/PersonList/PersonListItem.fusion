@@ -1,0 +1,10 @@
+prototype(WebStarter:Object.PersonListItem) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Object/PersonList/PersonListItem.html'
+
+    name = ${q(person).property('title')}
+    link = ${q(person).property('target')}
+
+    image = Neos.Neos:ImageUri {
+        asset = ${q(person).property('image')}
+    }
+}

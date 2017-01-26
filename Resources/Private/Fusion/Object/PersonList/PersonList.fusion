@@ -1,5 +1,6 @@
 prototype(WebStarter:Object.PersonList) < prototype(Fusion:Template) {
     templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Object/PersonList/PersonList.html'
+    @css = ${'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Object/PersonList/PersonList.css'}
 
     limit = 7
 
@@ -18,17 +19,5 @@ prototype(WebStarter:Object.PersonList) < prototype(Fusion:Template) {
         collection = ${personList}
         itemName = 'person'
         itemRenderer = WebStarter:Object.PersonListItem
-    }
-
-    @css = ${'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Object/PersonList/PersonList.css'}
-}
-
-prototype(WebStarter:Object.PersonListItem) < prototype(Fusion:Template) {
-    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Object/PersonList/PersonListItem.html'
-
-    name = ${q(person).property('title')}
-
-    image = Neos.Neos:ImageUri {
-        asset = ${q(person).property('image')}
     }
 }
