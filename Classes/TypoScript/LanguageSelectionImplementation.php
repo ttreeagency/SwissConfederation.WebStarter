@@ -2,7 +2,7 @@
 namespace Ttree\SwissConfederation\WebStarter\TypoScript;
 
 use Neos\Flow\Annotations as Flow;
-use Neos\Neos\TypoScript\DimensionsMenuImplementation;
+use Neos\Neos\Fusion\DimensionsMenuImplementation;
 use Neos\ContentRepository\Domain\Model\NodeInterface;
 use Neos\Fusion\Exception as TypoScriptException;
 
