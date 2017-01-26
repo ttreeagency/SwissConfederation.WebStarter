@@ -27,6 +27,9 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
             print = Ttree.StyleSheet:Resource {
                 uri = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/css/print.css'
             }
+            frontend = Ttree.StyleSheet:Resource {
+                uri = 'resource://Ttree.SwissConfederation.WebStarter/Public/Styles/Frontend.css'
+            }
             backend = Ttree.StyleSheet:Resource {
                 uri = 'resource://Ttree.SwissConfederation.WebStarter/Public/Styles/Backend.css'
                 @if.onlyRenderWhenNotInLiveWorkspace = ${documentNode.context.inBackend}
@@ -74,6 +77,12 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
         javascripts.site = Fusion:Template {
             templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Document/Default/Document.html'
             sectionName = 'headScripts'
+        }
+    }
+
+    bodyTag {
+        attributes {
+            class = 'mod mod-layout'
         }
     }
 
