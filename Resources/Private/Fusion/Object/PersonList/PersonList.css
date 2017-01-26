@@ -1,0 +1,53 @@
+@media all {
+    .mod-imagesbundesrat {
+        width: 100%;
+        margin-top: .3em;
+    }
+    .mod-imagesbundesrat .img-wrapper {
+        margin: 0;
+        padding-left: 0;
+    }
+    .mod-imagesbundesrat .img-wrapper li {
+        float: left;
+        margin-left: 0;
+        list-style: none;
+    }
+    .mod-imagesbundesrat .img-wrapper li img {
+        margin-top: 0;
+    }
+    .mod-imagesbundesrat .img-wrapper li figcaption {
+        color: black;
+        padding-right: 10px;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .mod-imagesbundesrat .img-count-1 li {
+        width: 100%;
+    }
+    .mod-imagesbundesrat .img-count-2 li {
+        width: 50%;
+    }
+    .mod-imagesbundesrat .img-count-3 li {
+        width: 33.33333333%;
+    }
+    .mod-imagesbundesrat .img-count-4 li {
+        width: 25%;
+    }
+    .mod-imagesbundesrat .img-count-5 li {
+        width: 20%;
+    }
+    .mod-imagesbundesrat .img-count-6 li {
+        width: 16.66666667%;
+    }
+    .mod-imagesbundesrat .img-count-7 li {
+        width: 14.28571429%;
+    }
+    .mod-imagesbundesrat .img-count-8 li {
+        width: 12.5%;
+    }
+}
+@media all and (max-width: 767px) {
+    .mod-imagesbundesrat figcaption {
+        display: none;
+    }
+}

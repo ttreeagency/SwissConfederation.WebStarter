@@ -4,3 +4,4 @@ namespace: WebStarter = Ttree.SwissConfederation.WebStarter
 include: Document/**/*
 include: Header/**/*
 include: Container/**/*
+include: Object/**/*

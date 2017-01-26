@@ -112,5 +112,8 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
             templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Document/Default/Document.html'
             sectionName = 'bodyScripts'
         }
+
+        dynamicStyles = Ttree.Fusion.DynamicStyles:InlineStyles
+        @process.dynamicStyles = ${this.dynamicStyles + value}
     }
 }

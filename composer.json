@@ -5,7 +5,8 @@
     "require": {
         "ttree/fusion-documentfinder": "*",
         "typo3/neos-nodetypes": "*",
-        "ttree/stylesheet": "^3.0.0"
+        "ttree/stylesheet": "^3.0.0",
+        "ttree/fusion-dynamicstyles": "*"
     },
     "autoload": {
         "psr-4": {

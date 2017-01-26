@@ -1,0 +1,34 @@
+prototype(WebStarter:Object.PersonList) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Object/PersonList/PersonList.html'
+
+    limit = 7
+
+    personList = ${q(node).find('#2efc2a6b-3512-4124-92d8-5df5cd288753').children('[instanceof Ttree.SwissConfederation.WebStarter:PersonShortcut]').get()}
+    personList.@process.slice = ${Array.slice(value, 0, this.limit)}
+
+    @context.personList = ${this.personList}
+
+    attributes = Fusion:Attributes {
+        class = 'img-wrapper js-image-wrapper clearfix js-large-screen' {
+            @process.imageCounter = ${value + ' img-count-' + Array.length(personList)}
+        }
+    }
+
+    personCollection = Fusion:Collection {
+        collection = ${personList}
+        itemName = 'person'
+        itemRenderer = WebStarter:Object.PersonListItem
+    }
+
+    @css = ${'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Object/PersonList/PersonList.css'}
+}
+
+prototype(WebStarter:Object.PersonListItem) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Object/PersonList/PersonListItem.html'
+
+    name = ${q(person).property('title')}
+
+    image = Neos.Neos:ImageUri {
+        asset = ${q(person).property('image')}
+    }
+}
