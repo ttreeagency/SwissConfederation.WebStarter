@@ -25,3 +25,7 @@ body, html {
 .neos-inspector-panel-open.neos-navigate-panel-open .container-main {
     width: calc(100% - 642px);
 }
+
+.icon-green {
+    color: orange;
+}
