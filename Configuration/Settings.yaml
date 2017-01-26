@@ -16,6 +16,17 @@ Ttree:
         fallback: 'Ttree.SwissConfederation.WebStarter:Default.Document'
 
 Neos:
+
+  Neos:
+    userInterface:
+      translation:
+            autoInclude:
+              Ttree.SwissConfederation.WebStarter:
+                - 'NodeTypes/*'
+      navigateComponent:
+        nodeTree:
+          loadingDepth: 1
+
   ContentRepository:
     contentDimensions:
       language:

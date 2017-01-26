@@ -1,0 +1,7 @@
+'Neos.Neos:Document':
+  constraints:
+    nodeTypes:
+      'Ttree.SwissConfederation.WebStarter:Home': false
+      'Ttree.SwissConfederation.WebStarter:PersonShortcut': false
+      'Ttree.SwissConfederation.WebStarter:PersonList': false
+

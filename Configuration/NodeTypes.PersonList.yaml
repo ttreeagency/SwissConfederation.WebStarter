@@ -1,0 +1,23 @@
+'Ttree.SwissConfederation.WebStarter:PersonList':
+  superTypes:
+    'Neos.Neos:Shortcut': true
+  constraints:
+    nodeTypes:
+      'Neos.Neos:Document': false
+      'Ttree.SwissConfederation.WebStarter:PersonList': true
+      'Ttree.SwissConfederation.WebStarter:PersonShortcut': true
+      '*': false
+  ui:
+    label: i18n
+    icon: 'icon-group'
+  properties:
+    target:
+      defaultValue: firstChildNode
+      ui:
+        inspector:
+          group: ~
+    targetMode:
+      defaultValue: selectedTarget
+      ui:
+        inspector:
+          group: ~

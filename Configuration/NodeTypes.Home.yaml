@@ -1,6 +1,10 @@
 'Ttree.SwissConfederation.WebStarter:Home':
   superTypes:
     'Neos.NodeTypes:Page': true
+  constraints:
+    nodeTypes:
+      'Neos.Neos:Document': true
+      'Ttree.SwissConfederation.WebStarter:PersonList': true
   ui:
     label: 'Home'
     icon: 'icon-home'

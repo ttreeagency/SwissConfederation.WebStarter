@@ -1,14 +1,20 @@
 'Ttree.SwissConfederation.WebStarter:PersonShortcut':
   superTypes:
     'Neos.Neos:Shortcut': true
+  constraints:
+    nodeTypes:
+      'Neos.Neos:Document': false
+      '*': false
   ui:
-    label: 'Person Shortcut'
+    label: i18n
     icon: 'icon-user'
     inspector:
       groups:
+        document:
+          position: 5
         person:
           label: i18n
-          position: 5
+          position: 10
           icon: 'icon-user'
   properties:
     image:
@@ -19,3 +25,8 @@
         inspector:
           group: 'person'
           position: 10
+    targetMode:
+      defaultValue: selectedTarget
+      ui:
+        inspector:
+          group: ~
