@@ -4,7 +4,7 @@ namespace Ttree\SwissConfederation\WebStarter\TypoScript;
 use Neos\Flow\Annotations as Flow;
 use Neos\Neos\TypoScript\DimensionsMenuImplementation;
 use Neos\ContentRepository\Domain\Model\NodeInterface;
-use TYPO3\TypoScript\Exception as TypoScriptException;
+use Neos\Fusion\Exception as TypoScriptException;
 
 /**
  * TypoScript implementation for a language selection menu.
