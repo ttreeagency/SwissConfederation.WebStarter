@@ -1,0 +1,6 @@
+'Ttree.SwissConfederation.WebStarter:PresidentShortcut':
+  superTypes:
+    'Ttree.SwissConfederation.WebStarter:PersonShortcut': true
+  ui:
+    label: i18n
+    icon: 'icon-user icon-green'
