@@ -6,7 +6,7 @@ prototype(WebStarter:Header.LanguageSelection) < prototype(DimensionsMenu) {
     dimension = 'language'
     presets = ${['de', 'fr', 'it', 'rm', 'en']}
 
-    current.attributes = TYPO3.TypoScript:Attributes {
+    current.attributes = Neos.Fusion:Attributes {
         class = 'active'
     }
 }
