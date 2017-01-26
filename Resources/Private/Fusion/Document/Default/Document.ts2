@@ -17,6 +17,18 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
             }
         }
 
+        stylesheets.base = Fusion:Array {
+            main = Ttree.StyleSheet:Resource {
+                uri = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/css/vendors.css'
+            }
+            admin = Ttree.StyleSheet:Resource {
+                uri = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/css/admin.css'
+            }
+            print = Ttree.StyleSheet:Resource {
+                uri = 'resource://Ttree.SwissConfederation.WebStarter/Public/StyleGuide/css/print.css'
+            }
+        }
+
         stylesheets.site = Fusion:Template {
             templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Document/Default/Document.html'
             sectionName = 'stylesheets'

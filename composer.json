@@ -4,7 +4,8 @@
     "description": "Swiss Confederation Web Guidelines implementation for Neos CMS",
     "require": {
         "ttree/fusion-documentfinder": "*",
-        "typo3/neos-nodetypes": "*"
+        "typo3/neos-nodetypes": "*",
+        "ttree/stylesheet": "^3.0.0"
     },
     "autoload": {
         "psr-4": {
