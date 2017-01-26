@@ -1,0 +1,21 @@
+'Ttree.SwissConfederation.WebStarter:PersonShortcut':
+  superTypes:
+    'Neos.Neos:Shortcut': true
+  ui:
+    label: 'Person Shortcut'
+    icon: 'icon-user'
+    inspector:
+      groups:
+        person:
+          label: i18n
+          position: 5
+          icon: 'icon-user'
+  properties:
+    image:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: 'person'
+          position: 10
