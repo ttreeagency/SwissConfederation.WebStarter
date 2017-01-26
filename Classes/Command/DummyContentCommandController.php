@@ -17,6 +17,7 @@ use Neos\ContentRepository\Domain\Service\NodeTypeManager;
 use Neos\Flow\Annotations as Flow;
 use Neos\Flow\Cli\CommandController;
 use Neos\Neos\Controller\CreateContentContextTrait;
+use Neos\Neos\Utility\NodeUriPathSegmentGenerator;
 
 /**
  * Command controller for importing dummy data
@@ -35,6 +36,12 @@ class DummyContentCommandController extends CommandController
      * @Flow\Inject
      */
     protected $nodeTypeManager;
+
+    /**
+     * @var NodeUriPathSegmentGenerator
+     * @Flow\Inject
+     */
+    protected $nodeUriPathSegmentGenerator;
 
     /**
      * @var array
@@ -136,9 +143,13 @@ class DummyContentCommandController extends CommandController
             $template = new NodeTemplate();
             $template->setNodeType($nodeType);
             $template->setProperty('title', $data['label']);
+            $template->setProperty('uriPathSegment', null);
+
             $this->outputLine(sprintf('Create document "%s" bellow "%s"', $data['label'], $parentNode->getLabel()));
 
             $node = $parentNode->createNodeFromTemplate($template);
+            $node->setProperty('uriPathSegment', $this->nodeUriPathSegmentGenerator->generateUriPathSegment($node));
+
             $children = $data['children'] ?? [];
             array_map(function ($data) use ($importNode, $node) {
                 $importNode($data, $node);
