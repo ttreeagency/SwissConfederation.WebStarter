@@ -3,19 +3,6 @@
  <site name="Swiss Confederation Web Starter" state="1" siteResourcesPackageKey="Ttree.SwissConfederation.WebStarter" siteNodeName="webstarter">
   <nodes formatVersion="2.0">
    <node identifier="27c0efdf-5b20-4256-b4b2-4cd3945191be" nodeName="webstarter">
-    <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
-     <dimensions>
-      <language>fr</language>
-     </dimensions>
-     <accessRoles __type="array"/>
-     <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:02:28+02:00</creationDateTime>
-     <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T20:27:23+02:00</lastModificationDateTime>
-     <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T20:27:23+02:00</lastPublicationDateTime>
-     <properties>
-      <title __type="string">Department of the Environment, Transport, Energy and Communications</title>
-      <uriPathSegment __type="string">home</uriPathSegment>
-     </properties>
-    </variant>
     <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
      <dimensions>
       <language>de</language>
@@ -55,15 +42,28 @@
       <uriPathSegment __type="string">home</uriPathSegment>
      </properties>
     </variant>
+    <variant sortingIndex="100" workspace="live" nodeType="Ttree.SwissConfederation.WebStarter:Home" version="3" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
+      <language>fr</language>
+     </dimensions>
+     <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:02:28+02:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:38:14+01:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:38:14+01:00</lastPublicationDateTime>
+     <properties>
+      <title __type="string">Department of the Environment, Transport, Energy and Communications</title>
+      <uriPathSegment __type="string">home</uriPathSegment>
+     </properties>
+    </variant>
     <node identifier="88439ef1-5191-a07c-43c3-14c74aa06604" nodeName="main">
-     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>fr</language>
       </dimensions>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:02:28+02:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T20:27:23+02:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T20:27:23+02:00</lastPublicationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:38:14+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:38:14+01:00</lastPublicationDateTime>
       <properties/>
      </variant>
      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
@@ -155,6 +155,18 @@
       </variant>
      </node>
      <node identifier="a6146419-3e1f-48e3-9b0c-412d50ba0370" nodeName="text1">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:02:28+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T16:26:17+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T16:26:17+01:00</lastPublicationDateTime>
+       <properties>
+        <text __type="string">&lt;h1&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;/h1&gt;&lt;p&gt;Aliquam ultrices urna non pharetra porta. Sed vel sem sollicitudin eros sollicitudin condimentum a eget diam. Cras quis velit mauris. Vestibulum ipsum magna, convallis vitae condimentum non, consequat non neque. Vestibulum vel rhoncus nibh, sit amet efficitur enim. Nam et lorem nec ipsum consectetur tincidunt. Praesent commodo gravida enim. Mauris ex neque, ultricies nec auctor id, ultricies non arcu. Fusce eu quam ornare, tempus nibh eget, dignissim leo. Aliquam erat volutpat. In rhoncus maximus dolor quis mattis. Ut tempor orci ut fermentum lacinia. Nulla vestibulum, elit in ullamcorper lobortis, ex mauris tincidunt felis, quis rhoncus lorem dui ut dui. Morbi placerat volutpat sagittis. Donec facilisis sagittis tortor quis mollis.&lt;/p&gt;&lt;h2&gt;Duis blandit tristique libero sit amet pretium. &lt;/h2&gt;&lt;p&gt;Donec euismod lectus ut erat ullamcorper, eu congue massa pulvinar. Suspendisse in aliquam eros. Vivamus eget risus non lectus tempus semper non id augue. Mauris dignissim quis nulla et vestibulum. Sed et arcu sed augue eleifend consectetur non at orci. Mauris tristique posuere nunc non ultricies. Ut eu bibendum mi, vel varius odio. Quisque condimentum finibus sem quis dictum. Integer hendrerit arcu eget molestie commodo. Integer risus ipsum, tempus in tempor vitae, venenatis aliquet neque.&lt;/p&gt;</text>
+       </properties>
+      </variant>
       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>rm</language>
@@ -201,18 +213,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T19:30:24+02:00</lastPublicationDateTime>
        <properties>
         <text __type="string">&lt;p&gt;Parla Italiano&lt;br/&gt;&lt;/p&gt;</text>
-       </properties>
-      </variant>
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-        <language>fr</language>
-       </dimensions>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2016-10-05T19:02:28+02:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T09:37:56+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T09:37:56+01:00</lastPublicationDateTime>
-       <properties>
-        <text __type="string">&lt;p&gt;Welcome on Neos CMS !&lt;/p&gt;</text>
        </properties>
       </variant>
      </node>
@@ -311,6 +311,22 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T19:04:30+02:00</lastPublicationDateTime>
         <properties/>
        </variant>
+       <node identifier="f78937cb-d519-4485-a308-15ed893da292" nodeName="node-5889db7394eb1">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Image" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>fr</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-01-26T12:20:19+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:20:38+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:20:38+01:00</lastPublicationDateTime>
+         <properties>
+          <caption __type="string"></caption>
+          <alignment __type="string"></alignment>
+          <image __type="object" __identifier="81a2ac8d-2115-4b40-860f-6c4978cc06a5" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;81a2ac8d-2115-4b40-860f-6c4978cc06a5&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;login.jpeg&quot;,&quot;hash&quot;:&quot;f8385c583ff504c25aff046bf1c2360f1fbe9f09&quot;,&quot;__identity&quot;:&quot;51bdd190-a675-49b1-a340-8ff352a263de&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
       </node>
      </node>
      <node identifier="c6b27e4b-1ed6-4c1c-8c8c-afda8d3ddbe3" nodeName="node-57f532987bee1">
@@ -337,6 +353,141 @@
         <lastModificationDateTime __type="object" __classname="DateTime">2016-10-05T19:26:12+02:00</lastModificationDateTime>
         <lastPublicationDateTime __type="object" __classname="DateTime">2016-10-05T19:04:30+02:00</lastPublicationDateTime>
         <properties/>
+       </variant>
+      </node>
+     </node>
+     <node identifier="2efc2a6b-3512-4124-92d8-5df5cd288753" nodeName="node-5889df2429184">
+      <variant sortingIndex="900" workspace="live" nodeType="Neos.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>fr</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-26T12:36:07+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:38:14+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:38:14+01:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">conseil-federal</uriPathSegment>
+        <targetMode __type="string">firstChildNode</targetMode>
+        <title __type="string">Conseil fédéral</title>
+       </properties>
+      </variant>
+      <node identifier="a6de0f7e-bd6f-4e63-b53c-b084e745b7fb" nodeName="node-5889df3bc4521">
+       <variant sortingIndex="100" workspace="live" nodeType="Ttree.SwissConfederation.WebStarter:PersonShortcut" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T12:36:27+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastPublicationDateTime>
+        <properties>
+         <uriPathSegment __type="string">johann-n-schneider-ammann</uriPathSegment>
+         <targetMode __type="string">firstChildNode</targetMode>
+         <title __type="string">Johann N. Schneider-Ammann</title>
+         <image __type="object" __identifier="fcd7b264-341e-4336-8ff6-c5507712c8e1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;fcd7b264-341e-4336-8ff6-c5507712c8e1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;johann_schneider_amman_2017_300dpi_rgb_a.png&quot;,&quot;hash&quot;:&quot;b173c540f9c77c35dcabc06392a364545106bd38&quot;,&quot;__identity&quot;:&quot;ffcf1ac6-0a91-4c5c-af7c-adc4e9cf19da&quot;}}</image>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="65ea0801-58d5-4779-af27-825834b57145" nodeName="node-5889dfb1b1471">
+       <variant sortingIndex="150" workspace="live" nodeType="Ttree.SwissConfederation.WebStarter:PersonShortcut" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T12:38:25+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastPublicationDateTime>
+        <properties>
+         <uriPathSegment __type="string">didier-burkhalter</uriPathSegment>
+         <targetMode __type="string">firstChildNode</targetMode>
+         <title __type="string">Didier Burkhalter</title>
+         <image __type="object" __identifier="18563987-4d2a-410d-8459-490aacfcf4d9" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;18563987-4d2a-410d-8459-490aacfcf4d9&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;didier_burkhalter_2017_300dpi_rgb_a.png&quot;,&quot;hash&quot;:&quot;51c36f172c1cb27d7fac90f9c7249abc6f88547d&quot;,&quot;__identity&quot;:&quot;b0631022-e101-4c76-939c-5850f45d680e&quot;}}</image>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="2a6b1e69-babb-429b-962f-8bb3f9dd2ea6" nodeName="node-5889dffb23aed">
+       <variant sortingIndex="200" workspace="live" nodeType="Ttree.SwissConfederation.WebStarter:PersonShortcut" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T12:39:39+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastPublicationDateTime>
+        <properties>
+         <uriPathSegment __type="string">alain-berset</uriPathSegment>
+         <targetMode __type="string">firstChildNode</targetMode>
+         <title __type="string">Alain Berset</title>
+         <image __type="object" __identifier="3cd4e725-fddc-48a4-b783-e9d5c008ad4b" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;3cd4e725-fddc-48a4-b783-e9d5c008ad4b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;alain_berset_2017_300dpi_rgb_a.png&quot;,&quot;hash&quot;:&quot;b7592292457c83498282ddbbee8cd38500197c01&quot;,&quot;__identity&quot;:&quot;1a656e0b-e3dd-417c-a3e5-a3e4327f0de4&quot;}}</image>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="91f2a6b6-abc4-41d8-9f42-7692c2e27dab" nodeName="node-5889e00820e34">
+       <variant sortingIndex="250" workspace="live" nodeType="Ttree.SwissConfederation.WebStarter:PersonShortcut" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T12:39:52+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastPublicationDateTime>
+        <properties>
+         <uriPathSegment __type="string">doris-leuthard</uriPathSegment>
+         <targetMode __type="string">firstChildNode</targetMode>
+         <title __type="string">Doris Leuthard</title>
+         <image __type="object" __identifier="1752dc07-6196-47f7-a4ec-dae61c57209e" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;1752dc07-6196-47f7-a4ec-dae61c57209e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;doris_leuthard_2017_300dpi_rgb_a.png&quot;,&quot;hash&quot;:&quot;1afe45ac9503963d169473d4c7d1fdef832bc5e5&quot;,&quot;__identity&quot;:&quot;178b4847-d61a-423e-b68d-7a9eb2a5b5f5&quot;}}</image>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="e17bbd80-d649-4f51-ba68-8316c3b22ec7" nodeName="node-5889e0115c290">
+       <variant sortingIndex="300" workspace="live" nodeType="Ttree.SwissConfederation.WebStarter:PersonShortcut" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T12:40:01+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastPublicationDateTime>
+        <properties>
+         <uriPathSegment __type="string">ueli-maurer</uriPathSegment>
+         <targetMode __type="string">firstChildNode</targetMode>
+         <title __type="string">Ueli Maurer</title>
+         <image __type="object" __identifier="00a5ca16-7773-4f87-b89c-0b01409c30a8" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;00a5ca16-7773-4f87-b89c-0b01409c30a8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueli_maurer_2017_300dpi_rgb_a.png&quot;,&quot;hash&quot;:&quot;9e88637e9aeb3064e511ded73979246572b21652&quot;,&quot;__identity&quot;:&quot;6fdeb599-ca44-4f5b-a369-459cbeadbb68&quot;}}</image>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="52182a1f-2e2e-4793-8920-091be62e45c9" nodeName="node-5889e01a72225">
+       <variant sortingIndex="350" workspace="live" nodeType="Ttree.SwissConfederation.WebStarter:PersonShortcut" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T12:40:10+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastPublicationDateTime>
+        <properties>
+         <uriPathSegment __type="string">simonetta-sommaruga</uriPathSegment>
+         <targetMode __type="string">firstChildNode</targetMode>
+         <title __type="string">Simonetta Sommaruga</title>
+         <image __type="object" __identifier="af0c2239-7c0e-4c5c-b940-ef120c20c550" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;af0c2239-7c0e-4c5c-b940-ef120c20c550&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;simonetta_sommaruga_2017_300dpi_rgb_a.png&quot;,&quot;hash&quot;:&quot;a15372684f9eaeb8f12e3ee543b84c5d4dcb1ac7&quot;,&quot;__identity&quot;:&quot;2124de7c-fbc1-436e-81f0-6fc617e6b9c1&quot;}}</image>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="5a2c385a-f94a-4c1e-a4f1-0459dab2cef6" nodeName="node-5889e022b99c7">
+       <variant sortingIndex="400" workspace="live" nodeType="Ttree.SwissConfederation.WebStarter:PersonShortcut" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>fr</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-01-26T12:40:18+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-26T12:42:41+01:00</lastPublicationDateTime>
+        <properties>
+         <uriPathSegment __type="string">guy-parmelin</uriPathSegment>
+         <targetMode __type="string">firstChildNode</targetMode>
+         <title __type="string">Guy Parmelin</title>
+         <image __type="object" __identifier="48e7ce1c-7f11-4456-a8c5-0e2a6b91d7fe" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;48e7ce1c-7f11-4456-a8c5-0e2a6b91d7fe&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;guy_parmelin_2017_300dpi_rgb_a.png&quot;,&quot;hash&quot;:&quot;a38241ada07d04981a064d0b2c27b8955a9e94d6&quot;,&quot;__identity&quot;:&quot;a6d26b2f-afde-4986-9f6a-6c497df45287&quot;}}</image>
+        </properties>
        </variant>
       </node>
      </node>
