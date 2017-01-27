@@ -1,0 +1,6 @@
+prototype(WebStarter:Container.MobileNavigationTitle) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/GlobalNavigation/MobileNavigation/MobileNavigationTitle.html'
+
+    title = ${site.label}
+    node = ${site}
+}

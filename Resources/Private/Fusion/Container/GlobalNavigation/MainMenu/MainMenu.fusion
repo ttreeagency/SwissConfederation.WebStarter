@@ -1,0 +1,25 @@
+prototype(WebStarter:Container.MainMenu) < prototype(Neos:Menu) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/GlobalNavigation/MainMenu/MainMenu.html'
+
+    attributes {
+        class = 'nav navbar-nav'
+    }
+
+    filter = 'Neos.NodeTypes:Page'
+
+    active.attributes.class = 'dropdown current yamm-fw'
+    current.attributes.class = 'dropdown current yamm-fw'
+    normal.attributes.class = 'dropdown yamm-fw'
+
+    sectionNavigation = WebStarter:Container.SectionNavigation
+
+    @cache {
+        mode = 'cached'
+        entryIdentifier {
+            documentNode = ${documentNode}
+        }
+        entryTags {
+            1 = 'NodeType_Neos.Neos:Document'
+        }
+    }
+}

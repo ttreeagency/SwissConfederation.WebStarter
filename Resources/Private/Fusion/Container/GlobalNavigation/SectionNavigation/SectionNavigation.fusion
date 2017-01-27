@@ -1,0 +1,16 @@
+prototype(WebStarter:Container.SectionNavigation) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/GlobalNavigation/SectionNavigation/SectionNavigation.html'
+
+    node = ${item.node}
+
+    @cache {
+        mode = 'cached'
+        entryIdentifier {
+            documentNode = ${item.node}
+        }
+        entryTags {
+            1 = ${'Node_' + item.node.identifier}
+            2 = ${'DescendantOf_' + item.node.identifier}
+        }
+    }
+}

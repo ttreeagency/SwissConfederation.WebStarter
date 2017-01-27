@@ -1,0 +1,15 @@
+prototype(WebStarter:Container.MobileMenu) < prototype(WebStarter:Container.MainMenu) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/GlobalNavigation/MobileMenu/MobileMenu.html'
+
+    site = ${site}
+
+    @cache {
+        mode = 'cached'
+        entryIdentifier {
+            documentNode = ${site}
+        }
+        entryTags {
+            1 = 'NodeType_Neos.Neos:Document'
+        }
+    }
+}

@@ -1,0 +1,16 @@
+prototype(WebStarter:Container.GlobalNavigation) < prototype(Fusion:Tag) {
+    tagName = 'nav'
+
+    attributes {
+        class = 'nav-main yamm navbar'
+        id = 'main-navigation'
+    }
+
+    content = Fusion:Array {
+        title = WebStarter:Container.GlobalNavigationTitle
+
+        mobileNavigation = WebStarter:Container.MobileNavigation
+
+        mainMenu = WebStarter:Container.MainMenu
+    }
+}

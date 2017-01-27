@@ -1,0 +1,3 @@
+prototype(WebStarter:Container.MobileNavigationSearch) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/GlobalNavigation/MobileNavigation/MobileNavigationSearch.html'
+}

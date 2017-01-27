@@ -1,0 +1,14 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace ts=Neos\Fusion\ViewHelpers}
+<div class="nav-mobile-header">
+    <div class="table-row">
+        <span class="nav-mobile-logo">
+            <img src="{f:uri.resource(path: 'StyleGuide/img/swiss.svg', package: 'Ttree.SwissConfederation.WebStarter')}" alt="Confederatio Helvetica"/>
+        </span>
+        <h1>
+            <neos:link.node node="{node}">
+                {title}
+            </neos:link.node>
+        </h1>
+    </div>
+</div>

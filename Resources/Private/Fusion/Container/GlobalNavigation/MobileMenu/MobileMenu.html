@@ -1,0 +1,46 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace ts=Neos\Fusion\ViewHelpers}
+
+<div class="table-cell dropdown">
+    <a href="#" class="nav-mobile-menu dropdown-toggle" data-toggle="dropdown"><span class="icon icon--menu"></span></a>
+    <div class="drilldown dropdown-menu" role="menu">
+        <div class="drilldown-container">
+            <nav class="nav-page-list">
+                <ul>
+                    <f:render section="itemsList" arguments="{items: items}" />
+                </ul>
+                <a href="#" class="yamm-close-bottom"><span class="icon icon--top" aria-hidden="true"></span></a>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<f:section name="itemsList">
+    <f:for each="{items}" as="item">
+        <f:if condition="{item.subItems}">
+            <f:then>
+                <li class="list-sub">
+                    <neos:link.node node="{item.node}">
+                        {item.node.label}
+                    </neos:link.node>
+                    <!-- sub-list element -->
+                    <nav class="drilldown-sub">
+                        <neos:link.node node="{item.node}" class="icon icon--before icon--less drilldown-back">
+                            {item.node.label}
+                        </neos:link.node>
+                        <ul>
+                            <f:render section="itemsList" arguments="{items: item.subItems}" />
+                        </ul>
+                    </nav>
+                </li>
+            </f:then>
+            <f:else>
+                <li>
+                    <neos:link.node node="{item.node}">
+                        {item.node.label}
+                    </neos:link.node>
+                </li>
+            </f:else>
+        </f:if>
+    </f:for>
+</f:section>

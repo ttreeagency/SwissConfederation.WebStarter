@@ -1,0 +1,5 @@
+prototype(WebStarter:Container.GlobalNavigationTitle) < prototype(Fusion:Tag) {
+    tagName = 'h2'
+    attributes.class = 'sr-only'
+    conent = 'Navigation'
+}
