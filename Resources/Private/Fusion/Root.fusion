@@ -1,4 +1,5 @@
 namespace: Fusion = Neos.Fusion
+namespace: Neos = Neos.Neos
 namespace: WebStarter = Ttree.SwissConfederation.WebStarter
 
 include: Document/**/*
