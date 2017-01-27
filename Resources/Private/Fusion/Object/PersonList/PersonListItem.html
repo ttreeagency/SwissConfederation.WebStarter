@@ -1,8 +1,10 @@
 {namespace neos=Neos\Neos\ViewHelpers}
+{namespace neos.media=Neos\Media\ViewHelpers}
+
 <li>
     <figure>
         <neos:link.node node="{link}" >
-            <img src="{image}" alt="{name}" title="{name}">
+            <neos.media:image image="{image}" alt="{name}" title="{name}" width="163c" height="165c"/>
             <figcaption id="imagesbundesrat-dimg1">{name}</figcaption>
         </neos:link.node>
     </figure>
