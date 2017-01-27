@@ -1,5 +1,8 @@
 prototype(WebStarter:FocusTeaser) < prototype(Neos:Content) {
-    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Content/FocusTeaser/FocusTeaser.html'
+	templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Content/FocusTeaser/FocusTeaser.html'
+
+	panels = ${q(node).find('[instanceof Ttree.SwissConfederation.WebStarter:FocusTeaserPanel]').get()}
+	@context.panels = ${this.panels}
 
 	panelCollection = Neos:ContentCollection {
 		nodePath = 'main'
@@ -9,12 +12,23 @@ prototype(WebStarter:FocusTeaser) < prototype(Neos:Content) {
 			attributes.class.@process.active = ${iterator.isFirst ? value + ' active' : value}
 		}
 
+#		add play button
 		content.@process.wrap = ${'<button class="tab-focus-control btn btn-sm"><span class="icon icon--play"></span></button>' + value}
-		content.@process.wrap.@if.hasChilds = ${Array.length(q(node).find('[instanceof Ttree.SwissConfederation.WebStarter:FocusTeaserPanel]').get()) > 0}
+		content.@process.wrap.@if.hasMoreThanOneChild = ${q(panels).count() > 1}
+
+#		teach how to add panes
+		@process.notification = Fusion:Array {
+			alert = WebStarter:Object.Alert {
+				alertType = 'info'
+				message = ${Translation.translate('empty.info', null, [], 'NodeTypes/FocusTeaser', 'Ttree.SwissConfederation.WebStarter')}
+				after = ${value}
+			}
+		}
+		@process.notification.@if.isEmpty = ${q(panels).count() <= 0}
 	}
 
 	tabCollection = Fusion:Collection {
-		collection = ${q(node).find('[instanceof Ttree.SwissConfederation.WebStarter:FocusTeaserPanel]').get()}
+		collection = ${panels}
 		itemName = 'node'
 		iterationName = 'iterator'
 		itemRenderer = WebStarter:Object.FocusTeaserTab

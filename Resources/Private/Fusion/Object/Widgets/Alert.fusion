@@ -1,0 +1,26 @@
+prototype(WebStarter:Object.Alert) < prototype(Fusion:Array) {
+	@ignoreProperties = ${['alertType']}
+
+#	use with success, info, warning or danger..
+	alertType = 'info'
+	@context.alertType = ${this.alertType}
+
+#	add some content above..
+	before = ''
+
+	tagOpen = Fusion:Tag {
+		tagName = 'div'
+		omitClosingTag = ${true}
+		attributes.class = ${'alert alert-' + alertType}
+		attributes.role = 'alert'
+	}
+
+#	add a message..
+	message = ${alertType}
+	message.@process.icon = ${'<span class="sr-only">' + alertType + ':</span> ' + value}
+
+	tagClose = '</div>'
+
+#	add some content below..
+	after = ''
+}
