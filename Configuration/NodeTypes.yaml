@@ -4,4 +4,6 @@
       'Ttree.SwissConfederation.WebStarter:Home': false
       'Ttree.SwissConfederation.WebStarter:PersonShortcut': false
       'Ttree.SwissConfederation.WebStarter:PersonList': false
-
+  superTypes:
+    'Ttree.SwissConfederation.WebStarter:DocumentWithDescription': true
+    'Ttree.SwissConfederation.WebStarter:DocumentWithImage': true
