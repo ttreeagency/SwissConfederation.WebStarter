@@ -7,3 +7,4 @@ include: Content/**/*
 include: Header/**/*
 include: Container/**/*
 include: Object/**/*
+include: Content/**/*

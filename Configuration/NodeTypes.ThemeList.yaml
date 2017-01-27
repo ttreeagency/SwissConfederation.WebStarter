@@ -1,0 +1,7 @@
+'Ttree.SwissConfederation.WebStarter:ThemeList':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: i18n
+    icon: 'icon-group'
+

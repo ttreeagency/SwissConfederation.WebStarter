@@ -1,0 +1,35 @@
+prototype(WebStarter:ThemeListItem) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Content/ThemeList/ThemeListItem.html'
+
+    title = ${q(theme).property('title')}
+    imageMaxWidth = 282
+    imageMaxHeight = 176
+
+    @context {
+        title = ${this.title}
+        imageMaxWidth = ${this.imageMaxWidth}
+        imageMaxHeight = ${this.imageMaxHeight}
+    }
+
+    image = Neos.Neos:ImageTag {
+        asset = ${q(theme).property('documentImage')}
+
+        maximumWidth = ${imageMaxWidth}
+        width = ${imageMaxWidth}
+        maximumHeight = ${imageMaxHeight}
+        height = ${imageMaxHeight}
+
+        allowCropping = TRUE
+
+        attributes {
+            alt = ${title}
+            title = ${title}
+        }
+        @if.image = ${q(theme).property('documentImage') != null}
+    }
+    description = ${q(theme).property('documentDescription')}
+
+    node = ${q(theme).get(0)}
+
+    isExternal = ${String.startsWith(q(theme).property('target'), 'http')}
+}

@@ -1,0 +1,23 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace neos.media=Neos\Media\ViewHelpers}
+
+<div class="col-sm-4">
+    <p>
+        <f:if condition="{image}">
+            <f:then>
+                {image -> f:format.raw()}
+            </f:then>
+            <f:else>
+                <img src="http://placehold.it/{imageMaxWidth}x{imageMaxHeight}" alt="{title}"/>
+            </f:else>
+        </f:if>
+    </p>
+    <h3><neos:link.node node="{node}">{title}</neos:link.node></h3>
+    <p>
+        {description}
+    </p>
+    <br>
+    <f:if condition="{isExternal}">
+        <neos:link.node node="{node}" class="icon icon--after icon--external"><f:translate id="externalLink" source="Main" package="Ttree.SwissConfederation.WebStarter"/></neos:link.node>
+    </f:if>
+</div>
