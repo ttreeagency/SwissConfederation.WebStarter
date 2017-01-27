@@ -11,7 +11,7 @@ prototype(WebStarter:Container.MainMenu) < prototype(Neos:Menu) {
     current.attributes.class = 'dropdown current yamm-fw'
     normal.attributes.class = 'dropdown yamm-fw'
 
-    sectionNavigation = WebStarter:Container.SectionNavigation
+    sectionNavigation = WebStarter:Container.SectionNavigationCase
 
     @cache {
         mode = 'cached'

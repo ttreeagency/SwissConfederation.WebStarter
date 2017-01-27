@@ -1,0 +1,6 @@
+prototype(WebStarter:Container.SectionNavigationCase) < prototype(Fusion:Case) {
+    default {
+        condition = TRUE
+        type = 'Ttree.SwissConfederation.WebStarter:Container.SectionNavigation'
+    }
+}

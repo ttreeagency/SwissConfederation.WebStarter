@@ -11,9 +11,7 @@
             <neos:link.node node="{item.node}" class="dropdown-toggle" data="{toggle: 'dropdown'}">
                 {item.node.label} <span class="sr-only">current page</span>
             </neos:link.node>
-            <f:if condition="{item.subItems}">
-                {ts:render(path: 'sectionNavigation', context: {item: item}) -> f:format.raw()}
-            </f:if>
+            {ts:render(path: 'sectionNavigation', context: {item: item}) -> f:format.raw()}
         </li>
     </f:for>
 </f:section>
