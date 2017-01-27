@@ -1,0 +1,9 @@
+prototype(WebStarter:ThemeList) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Content/ThemeList/ThemeList.html'
+
+    themeCollection = Fusion:Collection {
+        collection = ${q(node).closest('[instanceof Neos.Neos:Document]').children('[instanceof Neos.Neos:Document]')}
+        itemName = 'theme'
+        itemRenderer = WebStarter:ThemeListItem
+    }
+}

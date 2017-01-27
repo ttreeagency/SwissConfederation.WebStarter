@@ -5,6 +5,9 @@
 			<trans-unit id="contentDimensions.language" xml:space="preserve">
 				<source>Language</source>
 			</trans-unit>
+			<trans-unit id="externalLink" xml:space="preserve">
+				<source>An external link</source>
+			</trans-unit>
         </body>
     </file>
 </xliff>

@@ -6,3 +6,4 @@ include: Document/**/*
 include: Header/**/*
 include: Container/**/*
 include: Object/**/*
+include: Content/**/*
