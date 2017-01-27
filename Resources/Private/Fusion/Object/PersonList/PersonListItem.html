@@ -2,7 +2,7 @@
 <li>
     <figure>
         <neos:link.node node="{link}" >
-            <img src="{image}" alt="{name}" title="{name}">
+            {image -> f:format.raw()}
             <figcaption id="imagesbundesrat-dimg1">{name}</figcaption>
         </neos:link.node>
     </figure>

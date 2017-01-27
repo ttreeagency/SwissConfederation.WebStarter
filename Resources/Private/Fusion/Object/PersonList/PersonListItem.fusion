@@ -5,7 +5,19 @@ prototype(WebStarter:Object.PersonListItem) < prototype(Fusion:Template) {
     name.@process.isPresident = ${q(person).is('[instanceof Ttree.SwissConfederation.WebStarter:PresidentShortcut]') ? value + ', Bundespräsidentin' : value }
     link = ${q(person).property('target')}
 
-    image = Neos.Neos:ImageUri {
+    @context.name = ${this.name}
+
+    image = Neos.Neos:ImageTag {
         asset = ${q(person).property('image')}
+
+        width = 162
+        height = 162
+
+        allowCropping = TRUE
+
+        attributes {
+            alt = ${name}
+            title = ${name}
+        }
     }
 }
