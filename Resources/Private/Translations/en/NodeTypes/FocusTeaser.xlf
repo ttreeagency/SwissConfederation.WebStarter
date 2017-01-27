@@ -5,6 +5,9 @@
 			<trans-unit id="ui.label" xml:space="preserve">
 				<source>Focus Teaser</source>
 			</trans-unit>
+			<trans-unit id="empty.info" xml:space="preserve">
+				<source>Click below and add a Focus Teaser Panel:</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

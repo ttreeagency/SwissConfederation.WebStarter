@@ -5,6 +5,9 @@
 			<trans-unit id="ui.label" xml:space="preserve">
 				<source>Focus Teaser Panel</source>
 			</trans-unit>
+			<trans-unit id="properties.title" xml:space="preserve">
+				<source>Override the generated Title</source>
+			</trans-unit>
 			<trans-unit id="groups.panel" xml:space="preserve">
 				<source>Panel</source>
 			</trans-unit>
