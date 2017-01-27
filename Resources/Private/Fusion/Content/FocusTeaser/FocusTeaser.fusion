@@ -10,6 +10,7 @@ prototype(WebStarter:FocusTeaser) < prototype(Neos:Content) {
 		}
 
 		content.@process.wrap = ${'<button class="tab-focus-control btn btn-sm"><span class="icon icon--play"></span></button>' + value}
+		content.@process.wrap.@if.hasChilds = ${Array.length(q(node).find('[instanceof Ttree.SwissConfederation.WebStarter:FocusTeaserPanel]').get()) > 0}
 	}
 
 	tabCollection = Fusion:Collection {
