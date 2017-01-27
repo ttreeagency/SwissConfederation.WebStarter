@@ -41,5 +41,8 @@ prototype(WebStarter:Object.FocusTeaserTab) < prototype(Fusion:Tag) {
 			aria-expanded = ${iterator.isFirst ? 'true': 'false'}
 		}
 		content = ${q(node).property('title')}
+		content.@process.ifEmpty1 = ${String.isBlank(value) ? ( String.cropAtWord(String.trim(String.stripTags(String.pregReplace(q(node).property('text'), '/<br\\W*?\\/?>|\\x{00a0}|[[^:print:]]|\\s+/u', ' '))), 75, '...') ) : value}
+		content.@process.ifEmpty2 = ${String.isBlank(value) ? 'Tab ' + iterator.index : value}
+
 	}
 }
