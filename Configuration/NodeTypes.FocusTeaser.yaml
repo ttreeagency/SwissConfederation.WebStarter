@@ -3,6 +3,7 @@
     'Neos.Neos:Content': true
   ui:
     label: i18n
+    icon: 'icon-list-alt'
     inlineEditable: true
   childNodes:
     main:
@@ -24,7 +25,7 @@
         panel:
           label: i18n
           position: 3
-#          icon: 'icon-image'
+          icon: 'icon-list-alt'
   properties:
     title:
       type: string
