@@ -103,10 +103,10 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
                             serviceNav = WebStarter:Header.ServiceNavigation
                         }
 
-                        section {
-                            siteSearch = WebStarter:Header.SiteSearch
-                            topic = WebStarter:Header.Topic
-                        }
+#                        section {
+#                            siteSearch = WebStarter:Header.SiteSearch
+#                            topic = WebStarter:Header.Topic
+#                        }
                     }
 
                     globalNavigation = WebStarter:Container.GlobalNavigation
