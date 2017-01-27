@@ -3,6 +3,7 @@ namespace: Neos = Neos.Neos
 namespace: WebStarter = Ttree.SwissConfederation.WebStarter
 
 include: Document/**/*
+include: Content/**/*
 include: Header/**/*
 include: Container/**/*
 include: Object/**/*

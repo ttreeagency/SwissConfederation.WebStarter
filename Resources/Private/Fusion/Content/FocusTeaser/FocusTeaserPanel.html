@@ -1,0 +1,11 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+<div{attributes -> f:format.raw()}>
+	<div class="row">
+		<div class="col-sm-7">
+			<f:render partial="Image" arguments="{_all}" />
+		</div>
+		<div class="col-sm-5">
+			{neos:contentElement.editable(property: 'text')}
+		</div>
+	</div>
+</div>
