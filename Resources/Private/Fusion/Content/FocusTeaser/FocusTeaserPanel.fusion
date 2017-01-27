@@ -1,0 +1,16 @@
+prototype(WebStarter:FocusTeaserPanel) < prototype(Neos:Content) {
+	templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Content/FocusTeaser/FocusTeaserPanel.html'
+	partialRootPath = ${'resource://Neos.NodeTypes/Private/Templates/NodeTypes/Partials'}
+
+	attributes {
+		class = 'tab-pane'
+		id = ${node.identifier}
+		role = 'tabpanel'
+		aria-hidden = 'true'
+		aria-labelledby = ${'ui-tab-' + node.identifier}
+	}
+
+	prototype(Neos.Neos:ConvertUris) {
+		@process.iconForExternalLinks = ${String.indexOf(value, '_blank') > 0 ? String.replace(value, '<a', '<a class="icon icon--after icon--external"') : value}
+	}
+}

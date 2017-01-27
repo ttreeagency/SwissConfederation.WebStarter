@@ -1,0 +1,42 @@
+'Ttree.SwissConfederation.WebStarter:FocusTeaser':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: i18n
+    icon: 'icon-list-alt'
+    inlineEditable: true
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'Neos.Neos:Document': false
+          'Ttree.SwissConfederation.WebStarter:FocusTeaserPanel': true
+          '*': false
+
+
+'Ttree.SwissConfederation.WebStarter:FocusTeaserPanel':
+  superTypes:
+    'Neos.NodeTypes:TextWithImage': true
+  ui:
+    label: i18n
+    inspector:
+      groups:
+        panel:
+          label: i18n
+          position: 3
+          icon: 'icon-list-alt'
+  properties:
+    title:
+      type: string
+      defaultValue: ''
+      ui:
+        inlineEditable: false
+        inspector:
+          group: 'panel'
+
+
+Neos.Neos:ContentCollection:
+  constraints:
+    nodeTypes:
+      'Ttree.SwissConfederation.WebStarter:FocusTeaserPanel': false
