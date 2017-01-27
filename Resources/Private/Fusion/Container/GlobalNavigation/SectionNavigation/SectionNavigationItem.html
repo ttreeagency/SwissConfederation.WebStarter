@@ -1,0 +1,19 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace ts=Neos\Fusion\ViewHelpers}
+<div class="col-sm-4" style="height: {height};">
+    <div class="mod mod-teaser clearfix ">
+        <f:if condition="{hasImage}">
+            <figure>
+                <a href="{uri}">
+                    {image -> f:format.raw()}
+                </a>
+            </figure>
+        </f:if>
+        <h3>
+            <neos:link.node node="{node}" title="{label}">
+                {label}
+            </neos:link.node>
+        </h3>
+        {description -> f:format.raw()}
+    </div>
+</div>

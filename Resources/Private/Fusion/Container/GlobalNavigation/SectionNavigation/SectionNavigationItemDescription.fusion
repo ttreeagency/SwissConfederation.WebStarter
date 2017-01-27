@@ -1,0 +1,12 @@
+prototype(WebStarter:Container.SectionNavigationItemDescription) < prototype(Fusion:Tag) {
+    tagName = 'div'
+
+    attributes {
+        class = 'wrapper'
+        style = 'word-wrap: break-word;'
+    }
+
+    content = ${q(node).property('documentDescription')}
+    content.@process.crop = ${String.cropAtWord(value, 120)}
+    content.@process.wrap = ${'<p>' + value + '</p>'}
+}

@@ -1,0 +1,25 @@
+prototype(WebStarter:Container.SectionNavigationItem) < prototype(Fusion:Template) {
+    templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/GlobalNavigation/SectionNavigation/SectionNavigationItem.html'
+
+    height = '398px'
+
+    node = ${node}
+    label = ${node.label}
+
+    uri = Neos:NodeUri {
+        node = ${node}
+    }
+
+    hasImage = ${q(node).property('documentImage') != null}
+
+    image = Neos:ImageTag {
+        asset = ${q(node).property('documentImage')}
+
+        width = 400
+        height = 160
+
+        allowCropping = TRUE
+    }
+
+    description = WebStarter:Container.SectionNavigationItemDescription
+}

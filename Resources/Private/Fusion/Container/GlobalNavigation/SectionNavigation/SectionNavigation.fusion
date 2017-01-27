@@ -3,6 +3,18 @@ prototype(WebStarter:Container.SectionNavigation) < prototype(Fusion:Template) {
 
     node = ${item.node}
 
+    childrenDocumentList = ${q(item.node).children('[instanceof Neos.Neos:Document]')}
+    @context.childrenDocumentList = ${this.childrenDocumentList}
+
+    @context.imageCounter = ${String.toInteger(this.childrenDocumentList.filter('[documentImage]').count())}
+    collection = Fusion:Collection {
+        collection = ${childrenDocumentList}
+        itemName = 'node'
+        itemRenderer = WebStarter:Container.SectionNavigationItem {
+            height = ${imageCounter == 0 ? '118px' : '398px'}
+        }
+    }
+
     @cache {
         mode = 'cached'
         entryIdentifier {
@@ -14,3 +26,6 @@ prototype(WebStarter:Container.SectionNavigation) < prototype(Fusion:Template) {
         }
     }
 }
+
+
+

@@ -10,8 +10,8 @@ prototype(WebStarter:Object.PersonListItem) < prototype(Fusion:Template) {
     image = Neos.Neos:ImageTag {
         asset = ${q(person).property('image')}
 
-        width = 162
-        height = 162
+        maximumWidth = 256
+        maximumHeight = 256
 
         allowCropping = TRUE
 

@@ -3,7 +3,21 @@
 <ul class="dropdown-menu" role="menu">
     <li>
         <div class="yamm-content container-fluid">
-            {node.label}
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="#" class="yamm-close icon icon--after icon--close pull-right" role="menuitem" tabindex="-1">Schliessen</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 main-column">
+                    <div class="mod mod-teaserlist">
+                        <div class="row">
+                            {collection -> f:format.raw()}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="yamm-close-bottom" role="menuitem" tabindex="-1"><span class="icon icon--top"></span></a>
         </div>
     </li>
 </ul>
