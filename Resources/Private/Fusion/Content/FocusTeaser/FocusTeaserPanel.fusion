@@ -9,4 +9,8 @@ prototype(WebStarter:FocusTeaserPanel) < prototype(Neos:Content) {
 		aria-hidden = 'true'
 		aria-labelledby = ${'ui-tab-' + node.identifier}
 	}
+
+	prototype(Neos.Neos:ConvertUris) {
+		@process.iconForExternalLinks = ${String.indexOf(value, '_blank') > 0 ? String.replace(value, '<a', '<a class="icon icon--after icon--external"') : value}
+	}
 }
