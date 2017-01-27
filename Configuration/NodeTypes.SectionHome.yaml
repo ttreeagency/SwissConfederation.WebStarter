@@ -1,0 +1,10 @@
+'Ttree.SwissConfederation.WebStarter:SectionHome':
+  superTypes:
+    'Neos.NodeTypes:Page': true
+  constraints:
+    nodeTypes:
+      'Neos.Neos:Document': true
+      'Ttree.SwissConfederation.WebStarter:PersonList': false
+  ui:
+    label: 'Section'
+    icon: 'icon-home icon-green'

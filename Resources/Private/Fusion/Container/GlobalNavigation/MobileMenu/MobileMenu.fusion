@@ -3,6 +3,8 @@ prototype(WebStarter:Container.MobileMenu) < prototype(WebStarter:Container.Main
 
     site = ${site}
 
+    filter = 'Neos.NodeTypes:Page'
+
     @cache {
         mode = 'cached'
         entryIdentifier {

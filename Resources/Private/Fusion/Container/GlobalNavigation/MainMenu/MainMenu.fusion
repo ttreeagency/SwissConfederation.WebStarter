@@ -5,7 +5,7 @@ prototype(WebStarter:Container.MainMenu) < prototype(Neos:Menu) {
         class = 'nav navbar-nav'
     }
 
-    filter = 'Neos.NodeTypes:Page'
+    filter = 'Ttree.SwissConfederation.WebStarter:SectionHome'
 
     active.attributes.class = 'dropdown current yamm-fw'
     current.attributes.class = 'dropdown current yamm-fw'
