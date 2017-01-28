@@ -9,6 +9,9 @@ prototype(WebStarter:FocusTeaserPanel) < prototype(Neos:Content) {
 		aria-labelledby = ${'ui-tab-' + node.identifier}
 	}
 
-	height = 300
+	width = 588
+	height = 368
+
+	allowCropping = TRUE
 	allowUpScaling = TRUE
 }
