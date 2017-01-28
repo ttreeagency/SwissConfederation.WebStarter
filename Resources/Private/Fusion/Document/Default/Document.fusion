@@ -95,7 +95,7 @@ prototype(WebStarter:Default.Document) < prototype(Page) {
             main = WebStarter:Container.DocumentWrapper {
                 content {
                     header = WebStarter:Header.Base {
-                        title = ${q(site).property('title')}
+                        title = WebStarter:Query.SiteLogline
 
                         topNav {
                             treecrumb = WebStarter:Header.Treecrumb

@@ -3,5 +3,5 @@ prototype(WebStarter:Object.PageTitle) < prototype(Fusion:Tag) {
     attributes {
         class = 'page-title'
     }
-    content = ${q(documentNode).property('title')}
+    content = WebStarter:Query.SiteLogline
 }

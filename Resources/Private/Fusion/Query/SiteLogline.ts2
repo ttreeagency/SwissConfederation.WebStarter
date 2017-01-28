@@ -1,0 +1,3 @@
+prototype(WebStarter:Query.SiteLogline) < prototype(Fusion:Value) {
+    value = ${q(site).property('logline')}
+}
