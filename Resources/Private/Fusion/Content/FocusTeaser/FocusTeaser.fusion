@@ -1,48 +1,9 @@
 prototype(WebStarter:FocusTeaser) < prototype(Neos:Content) {
     templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Content/FocusTeaser/FocusTeaser.html'
 
-	panelCollection = Neos:ContentCollection {
-		nodePath = 'main'
-		attributes.class = 'tab-content tab-border tab-focus'
+	panelCollection = WebStarter:FocusTeaserPanelContentCollection
+	tabCollection = WebStarter:FocusTeaserTabCollection
 
-		prototype(Neos.Neos:Content) {
-			attributes.class.@process.active = ${iterator.isFirst ? value + ' active' : value}
-		}
-
-		content.@process.wrap = ${'<button class="tab-focus-control btn btn-sm"><span class="icon icon--play"></span></button>' + value}
-		content.@process.wrap.@if.hasChilds = ${Array.length(q(node).find('[instanceof Ttree.SwissConfederation.WebStarter:FocusTeaserPanel]').get()) > 0}
-	}
-
-	tabCollection = Fusion:Collection {
-		collection = ${q(node).find('[instanceof Ttree.SwissConfederation.WebStarter:FocusTeaserPanel]').get()}
-		itemName = 'node'
-		iterationName = 'iterator'
-		itemRenderer = WebStarter:Object.FocusTeaserTab
-		@process.wrap = ${'<ul class="nav nav-tabs nav-tabs-focus nav-justified" role="tablist">' + value + '</ul>'}
-	}
-
-}
-
-prototype(WebStarter:Object.FocusTeaserTab) < prototype(Fusion:Tag) {
-	tagName = 'li'
-	attributes.role = 'presentation'
-	attributes.class = ${iterator.isFirst ? 'active': false}
-
-	content = Fusion:Tag {
-		tagName = 'a'
-		attributes {
-			href = ${'#' + node.identifier}
-			data-toggle = 'tab'
-			role = 'tab'
-			id = ${'ui-tab-' + node.identifier}
-			tabindex = ${iterator.isFirst ? '0': '-1'}
-			aria-selected = ${iterator.isFirst ? 'true': 'false'}
-			aria-controls = 'profile'
-			aria-expanded = ${iterator.isFirst ? 'true': 'false'}
-		}
-		content = ${q(node).property('title')}
-		content.@process.ifEmpty1 = ${String.isBlank(value) ? ( String.cropAtWord(String.trim(String.stripTags(String.pregReplace(q(node).property('text'), '/<br\\W*?\\/?>|\\x{00a0}|[[^:print:]]|\\s+/u', ' '))), 75, '...') ) : value}
-		content.@process.ifEmpty2 = ${String.isBlank(value) ? 'Tab ' + iterator.index : value}
-
-	}
+	@process.columnWrapper = WebStarter:Object.ColumnWrapper
+	@process.rowWrapper = WebStarter:Object.RowWrapper
 }

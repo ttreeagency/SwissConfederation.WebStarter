@@ -1,0 +1,7 @@
+prototype(WebStarter:Object.ColumnWrapper) < prototype(Fusion:Tag) {
+    tagName = 'div'
+    attributes {
+        class = ${'col-sm-12'}
+    }
+    content = ${value}
+}

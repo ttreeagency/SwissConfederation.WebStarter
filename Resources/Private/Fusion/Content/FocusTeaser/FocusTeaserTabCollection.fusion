@@ -1,0 +1,7 @@
+prototype(WebStarter:FocusTeaserTabCollection) < prototype(Fusion:Collection) {
+	collection = ${q(node).find('[instanceof Ttree.SwissConfederation.WebStarter:FocusTeaserPanel]').get()}
+	itemName = 'node'
+	iterationName = 'iterator'
+	itemRenderer = WebStarter:Object.FocusTeaserTab
+	@process.wrap = ${'<ul class="nav nav-tabs nav-tabs-focus nav-justified" role="tablist">' + value + '</ul>'}
+}

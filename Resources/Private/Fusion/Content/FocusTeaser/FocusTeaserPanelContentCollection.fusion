@@ -1,0 +1,8 @@
+prototype(WebStarter:FocusTeaserPanelContentCollection) < prototype(Neos:ContentCollection) {
+    nodePath = 'main'
+    attributes.class = 'tab-content tab-border tab-focus'
+
+    prototype(Neos.Neos:Content) {
+        attributes.class.@process.active = ${iterator.isFirst ? value + ' active' : value}
+    }
+}

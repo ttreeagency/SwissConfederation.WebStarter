@@ -1,11 +1,23 @@
 {namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
 <div{attributes -> f:format.raw()}>
-	<div class="row">
-		<div class="col-sm-7">
-			<f:render partial="Image" arguments="{_all}" />
-		</div>
-		<div class="col-sm-5">
-			{neos:contentElement.editable(property: 'text')}
-		</div>
-	</div>
+<div class="media">
+    <div class="media-left">
+        <media:image image="{image}"
+                     class="media-object"
+                     style="max-width: none;"
+                     alt="{alternativeText}"
+                     title="{title}"
+                     width="{width}"
+                     maximumWidth="{maximumWidth}"
+                     height="{height}"
+                     maximumHeight="{maximumHeight}"
+                     allowUpScaling="{allowUpScaling}"
+                     allowCropping="{allowCropping}"/>
+    </div>
+    <div class="media-body">
+        {neos:contentElement.editable(property: 'title', tag: 'h2')}
+        {neos:contentElement.editable(property: 'text')}
+    </div>
+</div>
 </div>

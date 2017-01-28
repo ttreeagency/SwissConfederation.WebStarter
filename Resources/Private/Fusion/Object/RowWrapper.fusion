@@ -1,0 +1,7 @@
+prototype(WebStarter:Object.RowWrapper) < prototype(Fusion:Tag) {
+    tagName = 'div'
+    attributes {
+        class = ${'row'}
+    }
+    content = ${value}
+}

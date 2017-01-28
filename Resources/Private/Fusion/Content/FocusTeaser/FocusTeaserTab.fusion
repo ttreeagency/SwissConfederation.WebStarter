@@ -1,0 +1,26 @@
+prototype(WebStarter:Object.FocusTeaserTab) < prototype(Fusion:Tag) {
+	tagName = 'li'
+
+	attributes {
+		role = 'presentation'
+		class = ${iterator.isFirst ? 'active ': false}
+	}
+
+	content = Fusion:Tag {
+		tagName = 'a'
+		attributes {
+			href = ${'#' + node.identifier}
+			data-toggle = 'tab'
+			role = 'tab'
+			id = ${'ui-tab-' + node.identifier}
+			tabindex = ${iterator.isFirst ? '0': '-1'}
+			aria-selected = ${iterator.isFirst ? 'true': 'false'}
+			aria-controls = 'profile'
+			aria-expanded = ${iterator.isFirst ? 'true': 'false'}
+		}
+		content = ${q(node).property('title')}
+		content.@process.stripTags = ${String.stripTags(value)}
+		content.@process.trim = ${String.trim(value)}
+		content.@process.ifBlank = ${String.isBlank(value) ? 'Tab ' + iterator.index : value}
+	}
+}

@@ -17,6 +17,7 @@
 
 'Ttree.SwissConfederation.WebStarter:FocusTeaserPanel':
   superTypes:
+    'Neos.NodeTypes:TitleMixin': true
     'Neos.NodeTypes:TextWithImage': true
   ui:
     label: i18n
@@ -26,15 +27,6 @@
           label: i18n
           position: 3
           icon: 'icon-list-alt'
-  properties:
-    title:
-      type: string
-      defaultValue: ''
-      ui:
-        inlineEditable: false
-        inspector:
-          group: 'panel'
-
 
 Neos.Neos:ContentCollection:
   constraints:
