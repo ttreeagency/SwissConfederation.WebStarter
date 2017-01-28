@@ -20,4 +20,8 @@ prototype(WebStarter:Object.PersonList) < prototype(Fusion:Template) {
         itemName = 'person'
         itemRenderer = WebStarter:Object.PersonListItem
     }
+
+    @process.modWrapper = WebStarter:Object.ModWrapper {
+        type = 'mod-imagesbundesrat'
+    }
 }

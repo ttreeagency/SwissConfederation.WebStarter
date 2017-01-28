@@ -1,0 +1,10 @@
+prototype(WebStarter:Object.ModWrapper) < prototype(Fusion:Tag) {
+    type = null
+    @context.modType = ${this.type}
+
+    tagName = 'div'
+    attributes {
+        class = ${String.trim('mod ' + modType)}
+    }
+    content = ${value}
+}

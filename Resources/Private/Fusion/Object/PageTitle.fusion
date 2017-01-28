@@ -4,4 +4,6 @@ prototype(WebStarter:Object.PageTitle) < prototype(Fusion:Tag) {
         class = 'page-title'
     }
     content = WebStarter:Query.SiteLogline
+
+    @process.modWrapper = WebStarter:Object.ModWrapper
 }
