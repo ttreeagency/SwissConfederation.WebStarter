@@ -1,0 +1,7 @@
+prototype(WebStarter:Query.FederalCouncil) < prototype(Fusion:Value) {
+    limit = null
+
+    value = ${q(node).find('#2efc2a6b-3512-4124-92d8-5df5cd288753').children('[instanceof Ttree.SwissConfederation.WebStarter:PersonShortcut]').get()}
+
+    @process.slice = ${this.limit != null ? Array.slice(value, 0, this.limit) : value}
+}

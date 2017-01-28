@@ -2,10 +2,9 @@ prototype(WebStarter:Object.PersonList) < prototype(Fusion:Template) {
     templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Object/PersonList/PersonList.html'
     @css = ${'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Object/PersonList/PersonList.css'}
 
-    limit = 7
-
-    personList = ${q(node).find('#2efc2a6b-3512-4124-92d8-5df5cd288753').children('[instanceof Ttree.SwissConfederation.WebStarter:PersonShortcut]').get()}
-    personList.@process.slice = ${Array.slice(value, 0, this.limit)}
+    personList = WebStarter:Query.FederalCouncil {
+        limit = 7
+    }
 
     @context.personList = ${this.personList}
 
