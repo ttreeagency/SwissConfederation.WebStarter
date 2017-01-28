@@ -1,9 +1,11 @@
 prototype(WebStarter:Container.ContentArea) < prototype(Fusion:Template) {
     templatePath = 'resource://Ttree.SwissConfederation.WebStarter/Private/Fusion/Container/ContentArea/ContentArea.html'
 
-    pageTitle = WebStarter:Object.PageTitle
+    header = WebStarter:Object.PageTitle
 
     content = PrimaryContent {
         nodePath = 'main'
     }
+
+    footer = null
 }

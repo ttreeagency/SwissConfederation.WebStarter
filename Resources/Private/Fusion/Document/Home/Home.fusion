@@ -1,5 +1,8 @@
 prototype(WebStarter:Home.Document) < prototype(WebStarter:Default.Document) {
     prototype(WebStarter:Container.ContentArea) {
-        pageTitle = WebStarter:Object.PersonList
+        header = Fusion:Array {
+            personList = WebStarter:Object.PersonList
+            title = WebStarter:Object.PageTitle
+        }
     }
 }
